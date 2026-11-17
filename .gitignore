@@ -1,5 +1,7 @@
 .env
 .venv/
+__pycache__/
+*.pyc
 
 # GitHub rejects files over 100MB. Refresh these with scripts/kaggle-import.py.
 data/raw/PlayerStatistics.csv
