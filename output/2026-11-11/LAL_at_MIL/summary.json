@@ -1,0 +1,47 @@
+{
+  "game_id": "22600222",
+  "tip_est": "2026-11-11 20:00:00",
+  "arena": "Fiserv Forum, Milwaukee",
+  "away": {
+    "abbrev": "LAL",
+    "city": "Los Angeles",
+    "name": "Lakers",
+    "ortg": 116.5,
+    "drtg": 110.7,
+    "pace": 102.2
+  },
+  "home": {
+    "abbrev": "MIL",
+    "city": "Milwaukee",
+    "name": "Bucks",
+    "ortg": 106.3,
+    "drtg": 115.8,
+    "pace": 100.5
+  },
+  "sims": 10000,
+  "home_win_prob": 0.3419,
+  "mean_score": [
+    120.4,
+    113.3
+  ],
+  "median_score": [
+    120,
+    113
+  ],
+  "p10_score": [
+    104,
+    97
+  ],
+  "p90_score": [
+    136,
+    130
+  ],
+  "selected_score": [
+    116,
+    111
+  ],
+  "selected_seed": 289929062,
+  "mode_count": 17,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\LAL_at_MIL\\simulation.mp4"
+}

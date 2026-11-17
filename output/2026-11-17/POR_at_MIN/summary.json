@@ -1,0 +1,47 @@
+{
+  "game_id": "22600254",
+  "tip_est": "2026-11-17 20:00:00",
+  "arena": "Target Center, Minneapolis",
+  "away": {
+    "abbrev": "POR",
+    "city": "Portland",
+    "name": "Trail Blazers",
+    "ortg": 112.6,
+    "drtg": 109.9,
+    "pace": 102.4
+  },
+  "home": {
+    "abbrev": "MIN",
+    "city": "Minnesota",
+    "name": "Timberwolves",
+    "ortg": 111.8,
+    "drtg": 105.2,
+    "pace": 102.9
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6922,
+  "mean_score": [
+    110.3,
+    119.1
+  ],
+  "median_score": [
+    110,
+    119
+  ],
+  "p10_score": [
+    94,
+    103
+  ],
+  "p90_score": [
+    127,
+    135
+  ],
+  "selected_score": [
+    110,
+    119
+  ],
+  "selected_seed": 69409615,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-17\\POR_at_MIN\\simulation.mp4"
+}

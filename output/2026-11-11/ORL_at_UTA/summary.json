@@ -1,0 +1,47 @@
+{
+  "game_id": "22600224",
+  "tip_est": "2026-11-11 21:00:00",
+  "arena": "Delta Center, Salt Lake City",
+  "away": {
+    "abbrev": "ORL",
+    "city": "Orlando",
+    "name": "Magic",
+    "ortg": 107.3,
+    "drtg": 111.1,
+    "pace": 101.0
+  },
+  "home": {
+    "abbrev": "UTA",
+    "city": "Utah",
+    "name": "Jazz",
+    "ortg": 104.9,
+    "drtg": 110.4,
+    "pace": 101.9
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4424,
+  "mean_score": [
+    114.7,
+    112.3
+  ],
+  "median_score": [
+    114,
+    112
+  ],
+  "p10_score": [
+    99,
+    96
+  ],
+  "p90_score": [
+    131,
+    129
+  ],
+  "selected_score": [
+    111,
+    114
+  ],
+  "selected_seed": 2017555280,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\ORL_at_UTA\\simulation.mp4"
+}

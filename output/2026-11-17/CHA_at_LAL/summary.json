@@ -1,0 +1,47 @@
+{
+  "game_id": "22600256",
+  "tip_est": "2026-11-17 23:00:00",
+  "arena": "Crypto.com Arena, Los Angeles",
+  "away": {
+    "abbrev": "CHA",
+    "city": "Charlotte",
+    "name": "Hornets",
+    "ortg": 104.6,
+    "drtg": 112.8,
+    "pace": 99.5
+  },
+  "home": {
+    "abbrev": "LAL",
+    "city": "Los Angeles",
+    "name": "Lakers",
+    "ortg": 117.7,
+    "drtg": 111.7,
+    "pace": 102.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6269,
+  "mean_score": [
+    109.6,
+    115.1
+  ],
+  "median_score": [
+    109,
+    115
+  ],
+  "p10_score": [
+    93,
+    99
+  ],
+  "p90_score": [
+    126,
+    131
+  ],
+  "selected_score": [
+    117,
+    118
+  ],
+  "selected_seed": 1376823678,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-17\\CHA_at_LAL\\simulation.mp4"
+}

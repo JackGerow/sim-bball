@@ -1,0 +1,47 @@
+{
+  "game_id": "22600226",
+  "tip_est": "2026-11-11 22:00:00",
+  "arena": "Moda Center, Portland",
+  "away": {
+    "abbrev": "OKC",
+    "city": "Oklahoma City",
+    "name": "Thunder",
+    "ortg": 110.6,
+    "drtg": 106.5,
+    "pace": 113.0
+  },
+  "home": {
+    "abbrev": "POR",
+    "city": "Portland",
+    "name": "Trail Blazers",
+    "ortg": 113.2,
+    "drtg": 110.9,
+    "pace": 103.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4285,
+  "mean_score": [
+    122.2,
+    119.2
+  ],
+  "median_score": [
+    122,
+    119
+  ],
+  "p10_score": [
+    106,
+    103
+  ],
+  "p90_score": [
+    138,
+    136
+  ],
+  "selected_score": [
+    126,
+    120
+  ],
+  "selected_seed": 73460915,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\OKC_at_POR\\simulation.mp4"
+}

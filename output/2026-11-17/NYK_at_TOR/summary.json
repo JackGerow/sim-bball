@@ -1,0 +1,47 @@
+{
+  "game_id": "22600253",
+  "tip_est": "2026-11-17 19:30:00",
+  "arena": "Scotiabank Arena, Toronto",
+  "away": {
+    "abbrev": "NYK",
+    "city": "New York",
+    "name": "Knicks",
+    "ortg": 112.3,
+    "drtg": 107.8,
+    "pace": 98.4
+  },
+  "home": {
+    "abbrev": "TOR",
+    "city": "Toronto",
+    "name": "Raptors",
+    "ortg": 109.7,
+    "drtg": 112.9,
+    "pace": 104.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5282,
+  "mean_score": [
+    112.1,
+    113.3
+  ],
+  "median_score": [
+    112,
+    113
+  ],
+  "p10_score": [
+    96,
+    98
+  ],
+  "p90_score": [
+    128,
+    129
+  ],
+  "selected_score": [
+    113,
+    114
+  ],
+  "selected_seed": 1420143878,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-17\\NYK_at_TOR\\simulation.mp4"
+}

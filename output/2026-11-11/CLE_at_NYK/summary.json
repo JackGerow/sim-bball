@@ -1,0 +1,47 @@
+{
+  "game_id": "22600218",
+  "tip_est": "2026-11-11 19:00:00",
+  "arena": "Madison Square Garden, New York",
+  "away": {
+    "abbrev": "CLE",
+    "city": "Cleveland",
+    "name": "Cavaliers",
+    "ortg": 112.2,
+    "drtg": 111.4,
+    "pace": 107.2
+  },
+  "home": {
+    "abbrev": "NYK",
+    "city": "New York",
+    "name": "Knicks",
+    "ortg": 112.9,
+    "drtg": 106.4,
+    "pace": 99.6
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5953,
+  "mean_score": [
+    116.4,
+    120.4
+  ],
+  "median_score": [
+    116,
+    120
+  ],
+  "p10_score": [
+    101,
+    104
+  ],
+  "p90_score": [
+    132,
+    137
+  ],
+  "selected_score": [
+    116,
+    115
+  ],
+  "selected_seed": 77871403,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\CLE_at_NYK\\simulation.mp4"
+}

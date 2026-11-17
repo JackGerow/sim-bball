@@ -1,0 +1,47 @@
+{
+  "game_id": "22600219",
+  "tip_est": "2026-11-11 19:00:00",
+  "arena": "Scotiabank Arena, Toronto",
+  "away": {
+    "abbrev": "BOS",
+    "city": "Boston",
+    "name": "Celtics",
+    "ortg": 114.7,
+    "drtg": 106.6,
+    "pace": 99.6
+  },
+  "home": {
+    "abbrev": "TOR",
+    "city": "Toronto",
+    "name": "Raptors",
+    "ortg": 111.1,
+    "drtg": 112.3,
+    "pace": 107.4
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4546,
+  "mean_score": [
+    114.8,
+    112.9
+  ],
+  "median_score": [
+    115,
+    113
+  ],
+  "p10_score": [
+    98,
+    97
+  ],
+  "p90_score": [
+    131,
+    129
+  ],
+  "selected_score": [
+    118,
+    114
+  ],
+  "selected_seed": 977912001,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\BOS_at_TOR\\simulation.mp4"
+}

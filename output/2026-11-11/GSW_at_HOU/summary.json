@@ -1,0 +1,47 @@
+{
+  "game_id": "22600225",
+  "tip_est": "2026-11-11 21:30:00",
+  "arena": "Toyota Center, Houston",
+  "away": {
+    "abbrev": "GSW",
+    "city": "Golden State",
+    "name": "Warriors",
+    "ortg": 116.3,
+    "drtg": 107.1,
+    "pace": 101.5
+  },
+  "home": {
+    "abbrev": "HOU",
+    "city": "Houston",
+    "name": "Rockets",
+    "ortg": 113.1,
+    "drtg": 107.7,
+    "pace": 100.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4621,
+  "mean_score": [
+    111.6,
+    110.3
+  ],
+  "median_score": [
+    112,
+    110
+  ],
+  "p10_score": [
+    95,
+    95
+  ],
+  "p90_score": [
+    128,
+    126
+  ],
+  "selected_score": [
+    110,
+    113
+  ],
+  "selected_seed": 455453283,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\GSW_at_HOU\\simulation.mp4"
+}

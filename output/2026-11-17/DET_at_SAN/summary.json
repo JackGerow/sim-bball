@@ -1,0 +1,47 @@
+{
+  "game_id": "22600255",
+  "tip_est": "2026-11-17 20:00:00",
+  "arena": "Frost Bank Center, San Antonio",
+  "away": {
+    "abbrev": "DET",
+    "city": "Detroit",
+    "name": "Pistons",
+    "ortg": 113.6,
+    "drtg": 110.2,
+    "pace": 100.6
+  },
+  "home": {
+    "abbrev": "SAN",
+    "city": "San Antonio",
+    "name": "Spurs",
+    "ortg": 116.2,
+    "drtg": 106.5,
+    "pace": 100.9
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6052,
+  "mean_score": [
+    109.9,
+    114.3
+  ],
+  "median_score": [
+    110,
+    114
+  ],
+  "p10_score": [
+    94,
+    99
+  ],
+  "p90_score": [
+    125,
+    130
+  ],
+  "selected_score": [
+    111,
+    117
+  ],
+  "selected_seed": 592805779,
+  "mode_count": 17,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-17\\DET_at_SAN\\simulation.mp4"
+}

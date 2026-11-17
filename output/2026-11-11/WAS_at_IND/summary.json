@@ -1,0 +1,47 @@
+{
+  "game_id": "22600217",
+  "tip_est": "2026-11-11 19:00:00",
+  "arena": "Gainbridge Fieldhouse, Indianapolis",
+  "away": {
+    "abbrev": "WAS",
+    "city": "Washington",
+    "name": "Wizards",
+    "ortg": 107.2,
+    "drtg": 111.1,
+    "pace": 101.6
+  },
+  "home": {
+    "abbrev": "IND",
+    "city": "Indiana",
+    "name": "Pacers",
+    "ortg": 108.5,
+    "drtg": 111.3,
+    "pace": 102.7
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6571,
+  "mean_score": [
+    113.1,
+    120.0
+  ],
+  "median_score": [
+    113,
+    120
+  ],
+  "p10_score": [
+    97,
+    104
+  ],
+  "p90_score": [
+    129,
+    136
+  ],
+  "selected_score": [
+    116,
+    125
+  ],
+  "selected_seed": 1061719536,
+  "mode_count": 22,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\WAS_at_IND\\simulation.mp4"
+}

@@ -1,0 +1,8 @@
+.env
+.venv/
+
+# GitHub rejects files over 100MB. Refresh these with scripts/kaggle-import.py.
+data/raw/PlayerStatistics.csv
+data/raw/PlayerStatisticsExtended.csv
+data/raw/PlayByPlay.parquet
+data/raw/.complete/

@@ -1,0 +1,47 @@
+{
+  "game_id": "22600257",
+  "tip_est": "2026-11-17 22:30:00",
+  "arena": "Intuit Dome, Inglewood",
+  "away": {
+    "abbrev": "UTA",
+    "city": "Utah",
+    "name": "Jazz",
+    "ortg": 107.4,
+    "drtg": 113.5,
+    "pace": 100.5
+  },
+  "home": {
+    "abbrev": "LAC",
+    "city": "LA",
+    "name": "Clippers",
+    "ortg": 111.2,
+    "drtg": 113.0,
+    "pace": 101.5
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7154,
+  "mean_score": [
+    111.1,
+    120.7
+  ],
+  "median_score": [
+    111,
+    121
+  ],
+  "p10_score": [
+    95,
+    105
+  ],
+  "p90_score": [
+    127,
+    137
+  ],
+  "selected_score": [
+    108,
+    116
+  ],
+  "selected_seed": 2145742736,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-17\\UTA_at_LAC\\simulation.mp4"
+}

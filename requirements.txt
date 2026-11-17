@@ -1,0 +1,5 @@
+numpy>=2.2
+polars>=1.0
+pillow>=10
+imageio-ffmpeg>=0.5
+kagglehub>=0.3

@@ -1,0 +1,47 @@
+{
+  "game_id": "22600221",
+  "tip_est": "2026-11-11 20:00:00",
+  "arena": "FedExForum, Memphis",
+  "away": {
+    "abbrev": "DEN",
+    "city": "Denver",
+    "name": "Nuggets",
+    "ortg": 112.6,
+    "drtg": 111.2,
+    "pace": 100.2
+  },
+  "home": {
+    "abbrev": "MEM",
+    "city": "Memphis",
+    "name": "Grizzlies",
+    "ortg": 112.1,
+    "drtg": 109.0,
+    "pace": 102.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4771,
+  "mean_score": [
+    117.8,
+    116.9
+  ],
+  "median_score": [
+    118,
+    117
+  ],
+  "p10_score": [
+    102,
+    101
+  ],
+  "p90_score": [
+    134,
+    133
+  ],
+  "selected_score": [
+    117,
+    120
+  ],
+  "selected_seed": 164729485,
+  "mode_count": 23,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\DEN_at_MEM\\simulation.mp4"
+}

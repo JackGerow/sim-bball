@@ -1,0 +1,47 @@
+{
+  "game_id": "22600220",
+  "tip_est": "2026-11-11 20:00:00",
+  "arena": "United Center, Chicago",
+  "away": {
+    "abbrev": "SAN",
+    "city": "San Antonio",
+    "name": "Spurs",
+    "ortg": 114.6,
+    "drtg": 106.4,
+    "pace": 101.9
+  },
+  "home": {
+    "abbrev": "CHI",
+    "city": "Chicago",
+    "name": "Bulls",
+    "ortg": 107.3,
+    "drtg": 117.5,
+    "pace": 110.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.3791,
+  "mean_score": [
+    126.2,
+    120.8
+  ],
+  "median_score": [
+    126,
+    121
+  ],
+  "p10_score": [
+    110,
+    104
+  ],
+  "p90_score": [
+    142,
+    137
+  ],
+  "selected_score": [
+    123,
+    120
+  ],
+  "selected_seed": 1451039985,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-11\\SAN_at_CHI\\simulation.mp4"
+}
