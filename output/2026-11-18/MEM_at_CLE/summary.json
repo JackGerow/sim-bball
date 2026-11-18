@@ -1,0 +1,47 @@
+{
+  "game_id": "22600258",
+  "tip_est": "2026-11-18 19:00:00",
+  "arena": "Rocket Arena, Cleveland",
+  "away": {
+    "abbrev": "MEM",
+    "city": "Memphis",
+    "name": "Grizzlies",
+    "ortg": 117.3,
+    "drtg": 111.2,
+    "pace": 102.4
+  },
+  "home": {
+    "abbrev": "CLE",
+    "city": "Cleveland",
+    "name": "Cavaliers",
+    "ortg": 114.9,
+    "drtg": 113.4,
+    "pace": 105.0
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5787,
+  "mean_score": [
+    117.8,
+    121.3
+  ],
+  "median_score": [
+    118,
+    121
+  ],
+  "p10_score": [
+    101,
+    105
+  ],
+  "p90_score": [
+    134,
+    137
+  ],
+  "selected_score": [
+    120,
+    124
+  ],
+  "selected_seed": 1255919336,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\MEM_at_CLE\\simulation.mp4"
+}

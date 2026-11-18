@@ -1,0 +1,47 @@
+{
+  "game_id": "22600262",
+  "tip_est": "2026-11-18 19:30:00",
+  "arena": "Barclays Center, Brooklyn",
+  "away": {
+    "abbrev": "CHI",
+    "city": "Chicago",
+    "name": "Bulls",
+    "ortg": 109.4,
+    "drtg": 114.2,
+    "pace": 107.1
+  },
+  "home": {
+    "abbrev": "BKN",
+    "city": "Brooklyn",
+    "name": "Nets",
+    "ortg": 111.6,
+    "drtg": 115.1,
+    "pace": 101.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5227,
+  "mean_score": [
+    119.4,
+    120.3
+  ],
+  "median_score": [
+    119,
+    120
+  ],
+  "p10_score": [
+    103,
+    104
+  ],
+  "p90_score": [
+    136,
+    137
+  ],
+  "selected_score": [
+    119,
+    118
+  ],
+  "selected_seed": 159005417,
+  "mode_count": 17,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\CHI_at_BKN\\simulation.mp4"
+}

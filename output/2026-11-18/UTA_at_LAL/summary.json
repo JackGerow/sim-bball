@@ -1,0 +1,47 @@
+{
+  "game_id": "22600268",
+  "tip_est": "2026-11-18 22:00:00",
+  "arena": "Crypto.com Arena, Los Angeles",
+  "away": {
+    "abbrev": "UTA",
+    "city": "Utah",
+    "name": "Jazz",
+    "ortg": 109.8,
+    "drtg": 113.3,
+    "pace": 100.3
+  },
+  "home": {
+    "abbrev": "LAL",
+    "city": "Los Angeles",
+    "name": "Lakers",
+    "ortg": 117.0,
+    "drtg": 111.7,
+    "pace": 101.7
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7658,
+  "mean_score": [
+    108.3,
+    120.7
+  ],
+  "median_score": [
+    108,
+    121
+  ],
+  "p10_score": [
+    92,
+    105
+  ],
+  "p90_score": [
+    125,
+    137
+  ],
+  "selected_score": [
+    108,
+    126
+  ],
+  "selected_seed": 644626877,
+  "mode_count": 21,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\UTA_at_LAL\\simulation.mp4"
+}

@@ -1,0 +1,47 @@
+{
+  "game_id": "22600266",
+  "tip_est": "2026-11-18 21:30:00",
+  "arena": "Ball Arena, Denver",
+  "away": {
+    "abbrev": "BOS",
+    "city": "Boston",
+    "name": "Celtics",
+    "ortg": 115.0,
+    "drtg": 107.0,
+    "pace": 98.8
+  },
+  "home": {
+    "abbrev": "DEN",
+    "city": "Denver",
+    "name": "Nuggets",
+    "ortg": 113.2,
+    "drtg": 113.0,
+    "pace": 100.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4594,
+  "mean_score": [
+    116.1,
+    114.2
+  ],
+  "median_score": [
+    116,
+    114
+  ],
+  "p10_score": [
+    100,
+    98
+  ],
+  "p90_score": [
+    133,
+    130
+  ],
+  "selected_score": [
+    120,
+    113
+  ],
+  "selected_seed": 51347063,
+  "mode_count": 17,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\BOS_at_DEN\\simulation.mp4"
+}

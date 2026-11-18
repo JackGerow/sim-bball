@@ -1,0 +1,47 @@
+{
+  "game_id": "22600264",
+  "tip_est": "2026-11-18 20:00:00",
+  "arena": "Smoothie King Center, New Orleans",
+  "away": {
+    "abbrev": "DET",
+    "city": "Detroit",
+    "name": "Pistons",
+    "ortg": 113.6,
+    "drtg": 109.4,
+    "pace": 99.8
+  },
+  "home": {
+    "abbrev": "NOP",
+    "city": "New Orleans",
+    "name": "Pelicans",
+    "ortg": 110.1,
+    "drtg": 116.2,
+    "pace": 102.2
+  },
+  "sims": 10000,
+  "home_win_prob": 0.3478,
+  "mean_score": [
+    117.0,
+    110.5
+  ],
+  "median_score": [
+    117,
+    110
+  ],
+  "p10_score": [
+    102,
+    95
+  ],
+  "p90_score": [
+    132,
+    126
+  ],
+  "selected_score": [
+    114,
+    109
+  ],
+  "selected_seed": 1414003185,
+  "mode_count": 22,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\DET_at_NOP\\simulation.mp4"
+}

@@ -1,0 +1,47 @@
+{
+  "game_id": "22600267",
+  "tip_est": "2026-11-18 20:00:00",
+  "arena": "American Airlines Center, Dallas",
+  "away": {
+    "abbrev": "GSW",
+    "city": "Golden State",
+    "name": "Warriors",
+    "ortg": 111.6,
+    "drtg": 110.6,
+    "pace": 100.7
+  },
+  "home": {
+    "abbrev": "DAL",
+    "city": "Dallas",
+    "name": "Mavericks",
+    "ortg": 110.1,
+    "drtg": 113.8,
+    "pace": 105.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4255,
+  "mean_score": [
+    116.6,
+    113.2
+  ],
+  "median_score": [
+    116,
+    113
+  ],
+  "p10_score": [
+    100,
+    97
+  ],
+  "p90_score": [
+    133,
+    129
+  ],
+  "selected_score": [
+    116,
+    112
+  ],
+  "selected_seed": 1447163440,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\GSW_at_DAL\\simulation.mp4"
+}

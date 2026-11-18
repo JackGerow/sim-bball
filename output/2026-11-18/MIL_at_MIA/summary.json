@@ -1,0 +1,47 @@
+{
+  "game_id": "22600260",
+  "tip_est": "2026-11-18 19:00:00",
+  "arena": "Kaseya Center, Miami",
+  "away": {
+    "abbrev": "MIL",
+    "city": "Milwaukee",
+    "name": "Bucks",
+    "ortg": 106.4,
+    "drtg": 114.8,
+    "pace": 100.6
+  },
+  "home": {
+    "abbrev": "MIA",
+    "city": "Miami",
+    "name": "Heat",
+    "ortg": 114.8,
+    "drtg": 113.3,
+    "pace": 103.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6708,
+  "mean_score": [
+    114.3,
+    122.1
+  ],
+  "median_score": [
+    114,
+    122
+  ],
+  "p10_score": [
+    98,
+    106
+  ],
+  "p90_score": [
+    131,
+    138
+  ],
+  "selected_score": [
+    113,
+    122
+  ],
+  "selected_seed": 2053562868,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\MIL_at_MIA\\simulation.mp4"
+}

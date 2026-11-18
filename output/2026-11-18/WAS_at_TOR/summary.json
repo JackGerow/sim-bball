@@ -1,0 +1,47 @@
+{
+  "game_id": "22600263",
+  "tip_est": "2026-11-18 19:30:00",
+  "arena": "Scotiabank Arena, Toronto",
+  "away": {
+    "abbrev": "WAS",
+    "city": "Washington",
+    "name": "Wizards",
+    "ortg": 110.1,
+    "drtg": 117.4,
+    "pace": 101.0
+  },
+  "home": {
+    "abbrev": "TOR",
+    "city": "Toronto",
+    "name": "Raptors",
+    "ortg": 110.5,
+    "drtg": 114.1,
+    "pace": 102.4
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7694,
+  "mean_score": [
+    109.1,
+    121.5
+  ],
+  "median_score": [
+    109,
+    121
+  ],
+  "p10_score": [
+    94,
+    106
+  ],
+  "p90_score": [
+    125,
+    137
+  ],
+  "selected_score": [
+    111,
+    119
+  ],
+  "selected_seed": 256927052,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\WAS_at_TOR\\simulation.mp4"
+}

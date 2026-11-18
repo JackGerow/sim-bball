@@ -1,0 +1,47 @@
+{
+  "game_id": "22600265",
+  "tip_est": "2026-11-18 20:00:00",
+  "arena": "Paycom Center, Oklahoma City",
+  "away": {
+    "abbrev": "ATL",
+    "city": "Atlanta",
+    "name": "Hawks",
+    "ortg": 109.4,
+    "drtg": 110.8,
+    "pace": 109.7
+  },
+  "home": {
+    "abbrev": "OKC",
+    "city": "Oklahoma City",
+    "name": "Thunder",
+    "ortg": 111.7,
+    "drtg": 108.0,
+    "pace": 109.0
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6139,
+  "mean_score": [
+    117.1,
+    122.3
+  ],
+  "median_score": [
+    117,
+    122
+  ],
+  "p10_score": [
+    100,
+    106
+  ],
+  "p90_score": [
+    134,
+    139
+  ],
+  "selected_score": [
+    117,
+    124
+  ],
+  "selected_seed": 1450651949,
+  "mode_count": 17,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\ATL_at_OKC\\simulation.mp4"
+}

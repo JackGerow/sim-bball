@@ -1,0 +1,47 @@
+{
+  "game_id": "22600261",
+  "tip_est": "2026-11-18 19:00:00",
+  "arena": "Kia Center, Orlando",
+  "away": {
+    "abbrev": "PHI",
+    "city": "Philadelphia",
+    "name": "76ers",
+    "ortg": 114.6,
+    "drtg": 112.1,
+    "pace": 101.2
+  },
+  "home": {
+    "abbrev": "ORL",
+    "city": "Orlando",
+    "name": "Magic",
+    "ortg": 110.1,
+    "drtg": 110.2,
+    "pace": 100.2
+  },
+  "sims": 10000,
+  "home_win_prob": 0.55,
+  "mean_score": [
+    111.7,
+    113.8
+  ],
+  "median_score": [
+    111,
+    114
+  ],
+  "p10_score": [
+    96,
+    98
+  ],
+  "p90_score": [
+    128,
+    130
+  ],
+  "selected_score": [
+    108,
+    109
+  ],
+  "selected_seed": 235199244,
+  "mode_count": 21,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-18\\PHI_at_ORL\\simulation.mp4"
+}
