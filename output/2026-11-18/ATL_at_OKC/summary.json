@@ -19,10 +19,10 @@
     "pace": 109.0
   },
   "sims": 10000,
-  "home_win_prob": 0.6139,
+  "home_win_prob": 0.6161,
   "mean_score": [
-    117.1,
-    122.3
+    117.0,
+    122.2
   ],
   "median_score": [
     117,
@@ -37,11 +37,11 @@
     139
   ],
   "selected_score": [
-    117,
-    124
+    119,
+    118
   ],
-  "selected_seed": 1450651949,
-  "mode_count": 17,
+  "selected_seed": 68473754,
+  "mode_count": 23,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-18\\ATL_at_OKC\\simulation.mp4"
 }

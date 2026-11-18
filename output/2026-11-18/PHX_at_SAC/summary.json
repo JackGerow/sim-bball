@@ -19,10 +19,10 @@
     "pace": 102.0
   },
   "sims": 10000,
-  "home_win_prob": 0.4057,
+  "home_win_prob": 0.4004,
   "mean_score": [
-    118.2,
-    114.2
+    118.1,
+    113.7
   ],
   "median_score": [
     118,
@@ -37,11 +37,11 @@
     130
   ],
   "selected_score": [
-    118,
-    115
+    122,
+    114
   ],
-  "selected_seed": 1489373627,
-  "mode_count": 18,
+  "selected_seed": 575054258,
+  "mode_count": 20,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-18\\PHX_at_SAC\\simulation.mp4"
 }

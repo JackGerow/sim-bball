@@ -19,17 +19,17 @@
     "pace": 102.4
   },
   "sims": 10000,
-  "home_win_prob": 0.7694,
+  "home_win_prob": 0.7661,
   "mean_score": [
-    109.1,
-    121.5
+    108.9,
+    121.4
   ],
   "median_score": [
     109,
     121
   ],
   "p10_score": [
-    94,
+    93,
     106
   ],
   "p90_score": [
@@ -37,11 +37,11 @@
     137
   ],
   "selected_score": [
-    111,
-    119
+    103,
+    118
   ],
-  "selected_seed": 256927052,
-  "mode_count": 19,
+  "selected_seed": 467254211,
+  "mode_count": 23,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-18\\WAS_at_TOR\\simulation.mp4"
 }
