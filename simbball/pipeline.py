@@ -5,6 +5,8 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
+import shutil
 import subprocess
 from datetime import date, datetime
 from pathlib import Path
@@ -201,9 +203,44 @@ def main(argv: list[str] | None = None) -> None:
         _publish_results(out_dir)
 
 
+def _git_executable() -> str:
+    """Find git.exe when PowerShell cannot see the Git Bash PATH.
+
+    Python on Windows cannot launch git.cmd, so a PATH entry that points at
+    the cmd shim still has to be turned into git.exe.
+    """
+    found = shutil.which("git")
+    if found and found.lower().endswith(".exe"):
+        return found
+    candidates: list[Path] = []
+    if found:
+        candidates.append(Path(found).with_suffix(".exe"))
+    roots = [
+        os.environ.get("ProgramFiles", r"C:\Program Files"),
+        os.environ.get("ProgramFiles(x86)", r"C:\Program Files (x86)"),
+        os.environ.get("LocalAppData", ""),
+    ]
+    for root in roots:
+        if not root:
+            continue
+        base = Path(root) / "Git"
+        candidates.extend(
+            [
+                base / "cmd" / "git.exe",
+                base / "bin" / "git.exe",
+                base / "mingw64" / "bin" / "git.exe",
+                Path(root) / "Programs" / "Git" / "cmd" / "git.exe",
+            ]
+        )
+    for path in candidates:
+        if path.is_file():
+            return str(path)
+    raise FileNotFoundError("git was not found. Install Git for Windows or add it to PATH.")
+
+
 def _git(args: list[str]) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
-        ["git", *args],
+        [_git_executable(), *args],
         cwd=ROOT,
         check=False,
         capture_output=True,
@@ -214,7 +251,11 @@ def _git(args: list[str]) -> subprocess.CompletedProcess[str]:
 def _publish_results(out_dir: Path) -> None:
     """Commit this slate's output and push it to origin."""
     rel = out_dir.relative_to(ROOT).as_posix()
-    added = _git(["add", "--", rel])
+    try:
+        added = _git(["add", "--", rel])
+    except FileNotFoundError as exc:
+        print(str(exc), flush=True)
+        return
     if added.returncode != 0:
         print(added.stderr.strip() or "Could not stage the sim results.", flush=True)
         return
