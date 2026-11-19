@@ -200,6 +200,12 @@ def main(argv: list[str] | None = None) -> None:
     (out_dir / "summary.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
     _print_report(day, summaries)
     if args.max_events is None:
+        try:
+            from simbball.props import write_props
+
+            write_props(RAW, day, out_dir)
+        except Exception as exc:
+            print(f"Props were not written: {exc}", flush=True)
         _publish_results(out_dir)
 
 
