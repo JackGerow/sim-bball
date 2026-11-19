@@ -19,13 +19,13 @@
     "pace": 105.3
   },
   "sims": 10000,
-  "home_win_prob": 0.471,
+  "home_win_prob": 0.4581,
   "mean_score": [
-    116.6,
-    115.1
+    116.4,
+    115.0
   ],
   "median_score": [
-    117,
+    116,
     115
   ],
   "p10_score": [
@@ -37,11 +37,11 @@
     131
   ],
   "selected_score": [
-    112,
-    117
+    118,
+    110
   ],
-  "selected_seed": 79771581,
-  "mode_count": 19,
+  "selected_seed": 1643886228,
+  "mode_count": 20,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-18\\GSW_at_DAL\\simulation.mp4"
 }

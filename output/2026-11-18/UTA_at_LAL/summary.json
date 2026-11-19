@@ -19,29 +19,29 @@
     "pace": 101.7
   },
   "sims": 10000,
-  "home_win_prob": 0.7658,
+  "home_win_prob": 0.7306,
   "mean_score": [
-    108.3,
-    120.7
+    110.0,
+    120.8
   ],
   "median_score": [
-    108,
+    110,
     121
   ],
   "p10_score": [
-    92,
+    94,
     105
   ],
   "p90_score": [
-    125,
+    127,
     137
   ],
   "selected_score": [
-    108,
-    126
+    109,
+    121
   ],
-  "selected_seed": 644626877,
-  "mode_count": 21,
+  "selected_seed": 977950418,
+  "mode_count": 17,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-18\\UTA_at_LAL\\simulation.mp4"
 }
