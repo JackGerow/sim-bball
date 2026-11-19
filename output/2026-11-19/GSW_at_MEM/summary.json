@@ -1,0 +1,47 @@
+{
+  "game_id": "22600270",
+  "tip_est": "2026-11-19 20:00:00",
+  "arena": "FedExForum, Memphis",
+  "away": {
+    "abbrev": "GSW",
+    "city": "Golden State",
+    "name": "Warriors",
+    "ortg": 109.9,
+    "drtg": 111.2,
+    "pace": 100.7
+  },
+  "home": {
+    "abbrev": "MEM",
+    "city": "Memphis",
+    "name": "Grizzlies",
+    "ortg": 118.1,
+    "drtg": 112.6,
+    "pace": 101.8
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5019,
+  "mean_score": [
+    114.5,
+    114.7
+  ],
+  "median_score": [
+    114,
+    114
+  ],
+  "p10_score": [
+    98,
+    98
+  ],
+  "p90_score": [
+    131,
+    131
+  ],
+  "selected_score": [
+    116,
+    117
+  ],
+  "selected_seed": 1192319343,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-19/GSW_at_MEM/simulation.mp4"
+}

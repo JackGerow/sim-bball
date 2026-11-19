@@ -1,0 +1,47 @@
+{
+  "game_id": "22600271",
+  "tip_est": "2026-11-19 20:00:00",
+  "arena": "Fiserv Forum, Milwaukee",
+  "away": {
+    "abbrev": "POR",
+    "city": "Portland",
+    "name": "Trail Blazers",
+    "ortg": 111.3,
+    "drtg": 109.2,
+    "pace": 102.7
+  },
+  "home": {
+    "abbrev": "MIL",
+    "city": "Milwaukee",
+    "name": "Bucks",
+    "ortg": 108.1,
+    "drtg": 115.8,
+    "pace": 101.0
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4846,
+  "mean_score": [
+    115.5,
+    114.7
+  ],
+  "median_score": [
+    115,
+    115
+  ],
+  "p10_score": [
+    99,
+    98
+  ],
+  "p90_score": [
+    132,
+    131
+  ],
+  "selected_score": [
+    112,
+    117
+  ],
+  "selected_seed": 712175125,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-19/POR_at_MIL/simulation.mp4"
+}

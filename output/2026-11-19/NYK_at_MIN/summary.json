@@ -1,0 +1,47 @@
+{
+  "game_id": "22600272",
+  "tip_est": "2026-11-19 20:00:00",
+  "arena": "Target Center, Minneapolis",
+  "away": {
+    "abbrev": "NYK",
+    "city": "New York",
+    "name": "Knicks",
+    "ortg": 113.6,
+    "drtg": 108.8,
+    "pace": 97.3
+  },
+  "home": {
+    "abbrev": "MIN",
+    "city": "Minnesota",
+    "name": "Timberwolves",
+    "ortg": 110.9,
+    "drtg": 104.8,
+    "pace": 102.9
+  },
+  "sims": 10000,
+  "home_win_prob": 0.634,
+  "mean_score": [
+    109.3,
+    115.2
+  ],
+  "median_score": [
+    109,
+    115
+  ],
+  "p10_score": [
+    94,
+    99
+  ],
+  "p90_score": [
+    126,
+    131
+  ],
+  "selected_score": [
+    103,
+    118
+  ],
+  "selected_seed": 1841083054,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-19/NYK_at_MIN/simulation.mp4"
+}

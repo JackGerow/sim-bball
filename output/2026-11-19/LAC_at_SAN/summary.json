@@ -1,0 +1,47 @@
+{
+  "game_id": "22600273",
+  "tip_est": "2026-11-19 20:00:00",
+  "arena": "Frost Bank Center, San Antonio",
+  "away": {
+    "abbrev": "LAC",
+    "city": "LA",
+    "name": "Clippers",
+    "ortg": 111.3,
+    "drtg": 114.9,
+    "pace": 100.9
+  },
+  "home": {
+    "abbrev": "SAN",
+    "city": "San Antonio",
+    "name": "Spurs",
+    "ortg": 114.8,
+    "drtg": 107.3,
+    "pace": 100.2
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5957,
+  "mean_score": [
+    113.2,
+    117.5
+  ],
+  "median_score": [
+    113,
+    117
+  ],
+  "p10_score": [
+    97,
+    102
+  ],
+  "p90_score": [
+    130,
+    133
+  ],
+  "selected_score": [
+    113,
+    111
+  ],
+  "selected_seed": 293083543,
+  "mode_count": 21,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-19/LAC_at_SAN/simulation.mp4"
+}
