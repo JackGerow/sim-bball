@@ -257,15 +257,19 @@ def _git(args: list[str]) -> subprocess.CompletedProcess[str]:
 def _publish_results(out_dir: Path) -> None:
     """Commit this slate's output and push it to origin."""
     rel = out_dir.relative_to(ROOT).as_posix()
+    paths = [rel]
+    record = ROOT / "output" / "prop-record.json"
+    if record.exists():
+        paths.append(record.relative_to(ROOT).as_posix())
     try:
-        added = _git(["add", "--", rel])
+        added = _git(["add", "--", *paths])
     except FileNotFoundError as exc:
         print(str(exc), flush=True)
         return
     if added.returncode != 0:
         print(added.stderr.strip() or "Could not stage the sim results.", flush=True)
         return
-    staged = _git(["diff", "--cached", "--quiet", "--", rel])
+    staged = _git(["diff", "--cached", "--quiet", "--", *paths])
     if staged.returncode == 0:
         print("Sim results already match the repo. Nothing to push.", flush=True)
         return
