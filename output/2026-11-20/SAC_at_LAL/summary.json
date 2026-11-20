@@ -1,0 +1,47 @@
+{
+  "game_id": "22600051",
+  "tip_est": "2026-11-20 22:00:00",
+  "arena": "Crypto.com Arena, Los Angeles",
+  "away": {
+    "abbrev": "SAC",
+    "city": "Sacramento",
+    "name": "Kings",
+    "ortg": 107.3,
+    "drtg": 117.5,
+    "pace": 101.6
+  },
+  "home": {
+    "abbrev": "LAL",
+    "city": "Los Angeles",
+    "name": "Lakers",
+    "ortg": 114.8,
+    "drtg": 111.2,
+    "pace": 101.8
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7365,
+  "mean_score": [
+    110.8,
+    122.0
+  ],
+  "median_score": [
+    111,
+    122
+  ],
+  "p10_score": [
+    95,
+    106
+  ],
+  "p90_score": [
+    127,
+    138
+  ],
+  "selected_score": [
+    107,
+    119
+  ],
+  "selected_seed": 280906747,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-20/SAC_at_LAL/simulation.mp4"
+}

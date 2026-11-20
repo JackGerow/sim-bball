@@ -1,0 +1,47 @@
+{
+  "game_id": "22600047",
+  "tip_est": "2026-11-20 20:00:00",
+  "arena": "United Center, Chicago",
+  "away": {
+    "abbrev": "WAS",
+    "city": "Washington",
+    "name": "Wizards",
+    "ortg": 110.2,
+    "drtg": 116.3,
+    "pace": 100.3
+  },
+  "home": {
+    "abbrev": "CHI",
+    "city": "Chicago",
+    "name": "Bulls",
+    "ortg": 111.9,
+    "drtg": 113.5,
+    "pace": 106.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7064,
+  "mean_score": [
+    114.3,
+    123.5
+  ],
+  "median_score": [
+    114,
+    123
+  ],
+  "p10_score": [
+    99,
+    107
+  ],
+  "p90_score": [
+    130,
+    140
+  ],
+  "selected_score": [
+    114,
+    126
+  ],
+  "selected_seed": 2001000907,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-20/WAS_at_CHI/simulation.mp4"
+}

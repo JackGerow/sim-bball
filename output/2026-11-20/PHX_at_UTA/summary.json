@@ -1,0 +1,47 @@
+{
+  "game_id": "22600049",
+  "tip_est": "2026-11-20 21:30:00",
+  "arena": "Delta Center, Salt Lake City",
+  "away": {
+    "abbrev": "PHX",
+    "city": "Phoenix",
+    "name": "Suns",
+    "ortg": 114.4,
+    "drtg": 111.9,
+    "pace": 103.5
+  },
+  "home": {
+    "abbrev": "UTA",
+    "city": "Utah",
+    "name": "Jazz",
+    "ortg": 109.5,
+    "drtg": 111.4,
+    "pace": 100.5
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4201,
+  "mean_score": [
+    116.8,
+    113.2
+  ],
+  "median_score": [
+    117,
+    113
+  ],
+  "p10_score": [
+    100,
+    97
+  ],
+  "p90_score": [
+    133,
+    129
+  ],
+  "selected_score": [
+    114,
+    111
+  ],
+  "selected_seed": 1270683447,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-20/PHX_at_UTA/simulation.mp4"
+}

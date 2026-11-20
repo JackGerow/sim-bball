@@ -1,0 +1,47 @@
+{
+  "game_id": "22600050",
+  "tip_est": "2026-11-20 22:00:00",
+  "arena": "Ball Arena, Denver",
+  "away": {
+    "abbrev": "HOU",
+    "city": "Houston",
+    "name": "Rockets",
+    "ortg": 117.5,
+    "drtg": 111.8,
+    "pace": 99.5
+  },
+  "home": {
+    "abbrev": "DEN",
+    "city": "Denver",
+    "name": "Nuggets",
+    "ortg": 112.4,
+    "drtg": 111.9,
+    "pace": 100.2
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6202,
+  "mean_score": [
+    113.3,
+    118.3
+  ],
+  "median_score": [
+    113,
+    118
+  ],
+  "p10_score": [
+    98,
+    103
+  ],
+  "p90_score": [
+    129,
+    134
+  ],
+  "selected_score": [
+    113,
+    122
+  ],
+  "selected_seed": 771557855,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-20/HOU_at_DEN/simulation.mp4"
+}

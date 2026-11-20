@@ -1,0 +1,47 @@
+{
+  "game_id": "22600043",
+  "tip_est": "2026-11-20 19:00:00",
+  "arena": "State Farm Arena, Atlanta",
+  "away": {
+    "abbrev": "CHA",
+    "city": "Charlotte",
+    "name": "Hornets",
+    "ortg": 105.5,
+    "drtg": 112.8,
+    "pace": 98.7
+  },
+  "home": {
+    "abbrev": "ATL",
+    "city": "Atlanta",
+    "name": "Hawks",
+    "ortg": 109.9,
+    "drtg": 110.2,
+    "pace": 108.9
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6682,
+  "mean_score": [
+    110.1,
+    117.8
+  ],
+  "median_score": [
+    110,
+    118
+  ],
+  "p10_score": [
+    94,
+    102
+  ],
+  "p90_score": [
+    126,
+    134
+  ],
+  "selected_score": [
+    100,
+    117
+  ],
+  "selected_seed": 2055571201,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-20/CHA_at_ATL/simulation.mp4"
+}

@@ -1,0 +1,47 @@
+{
+  "game_id": "22600048",
+  "tip_est": "2026-11-20 20:00:00",
+  "arena": "Paycom Center, Oklahoma City",
+  "away": {
+    "abbrev": "NOP",
+    "city": "New Orleans",
+    "name": "Pelicans",
+    "ortg": 110.4,
+    "drtg": 117.2,
+    "pace": 101.6
+  },
+  "home": {
+    "abbrev": "OKC",
+    "city": "Oklahoma City",
+    "name": "Thunder",
+    "ortg": 111.1,
+    "drtg": 108.6,
+    "pace": 108.6
+  },
+  "sims": 10000,
+  "home_win_prob": 0.8119,
+  "mean_score": [
+    112.5,
+    127.2
+  ],
+  "median_score": [
+    112,
+    127
+  ],
+  "p10_score": [
+    97,
+    111
+  ],
+  "p90_score": [
+    129,
+    143
+  ],
+  "selected_score": [
+    112,
+    128
+  ],
+  "selected_seed": 2062635789,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-20/NOP_at_OKC/simulation.mp4"
+}

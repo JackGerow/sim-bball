@@ -1,0 +1,47 @@
+{
+  "game_id": "22600044",
+  "tip_est": "2026-11-20 19:30:00",
+  "arena": "Barclays Center, Brooklyn",
+  "away": {
+    "abbrev": "ORL",
+    "city": "Orlando",
+    "name": "Magic",
+    "ortg": 111.3,
+    "drtg": 111.6,
+    "pace": 99.6
+  },
+  "home": {
+    "abbrev": "BKN",
+    "city": "Brooklyn",
+    "name": "Nets",
+    "ortg": 111.2,
+    "drtg": 117.0,
+    "pace": 101.0
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4085,
+  "mean_score": [
+    114.4,
+    110.5
+  ],
+  "median_score": [
+    114,
+    110
+  ],
+  "p10_score": [
+    99,
+    95
+  ],
+  "p90_score": [
+    130,
+    126
+  ],
+  "selected_score": [
+    117,
+    103
+  ],
+  "selected_seed": 1548512617,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output/2026-11-20/ORL_at_BKN/simulation.mp4"
+}
