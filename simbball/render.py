@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import math
 import subprocess
+from functools import lru_cache
 from pathlib import Path
 
 import numpy as np
@@ -27,19 +28,72 @@ COURT_DST = {
     (0.0, 50.0): (345.0, 672.0),
 }
 
+_FONT_CANDIDATES: dict[str, list[tuple[Path, int]]] = {
+    "score": [
+        (FONT_DIR / "ariblk.ttf", 0),
+        (Path("/System/Library/Fonts/Supplemental/Arial Black.ttf"), 0),
+        (Path("/Library/Fonts/Arial Black.ttf"), 0),
+        (Path("/System/Library/Fonts/Supplemental/Arial Bold.ttf"), 0),
+        (Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"), 0),
+        (Path("/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"), 0),
+    ],
+    "bold": [
+        (FONT_DIR / "segoeuib.ttf", 0),
+        (FONT_DIR / "arialbd.ttf", 0),
+        (Path("/System/Library/Fonts/HelveticaNeue.ttc"), 1),
+        (Path("/System/Library/Fonts/Supplemental/Arial Bold.ttf"), 0),
+        (Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"), 0),
+        (Path("/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"), 0),
+    ],
+    "body": [
+        (FONT_DIR / "segoeui.ttf", 0),
+        (FONT_DIR / "arial.ttf", 0),
+        (Path("/System/Library/Fonts/HelveticaNeue.ttc"), 0),
+        (Path("/System/Library/Fonts/Supplemental/Arial.ttf"), 0),
+        (Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"), 0),
+        (Path("/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"), 0),
+    ],
+    "cond": [
+        (FONT_DIR / "bahnschrift.ttf", 0),
+        (FONT_DIR / "arialnb.ttf", 0),
+        (Path("/System/Library/Fonts/Supplemental/DIN Alternate Bold.ttf"), 0),
+        (Path("/System/Library/Fonts/Supplemental/Arial Narrow Bold.ttf"), 0),
+        (Path("/System/Library/Fonts/HelveticaNeue.ttc"), 1),
+        (Path("/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf"), 0),
+        (Path("/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf"), 0),
+    ],
+}
 
-def _font(name: str, size: int) -> ImageFont.FreeTypeFont:
-    path = FONT_DIR / name
-    if not path.exists():
-        path = FONT_DIR / "arial.ttf"
-    return ImageFont.truetype(str(path), size)
+_FALLBACK_FONTS: list[tuple[Path, int]] = [
+    (FONT_DIR / "arial.ttf", 0),
+    (Path("/System/Library/Fonts/Supplemental/Arial.ttf"), 0),
+    (Path("/System/Library/Fonts/Helvetica.ttc"), 0),
+    (Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"), 0),
+]
+
+
+@lru_cache(maxsize=None)
+def _resolve_font(role: str) -> tuple[str, int] | None:
+    for path, index in _FONT_CANDIDATES.get(role, []) + _FALLBACK_FONTS:
+        if path.is_file():
+            return str(path), index
+    return None
+
+
+@lru_cache(maxsize=256)
+def _font(role: str, size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
+    resolved = _resolve_font(role)
+    if resolved is not None:
+        path, index = resolved
+        return ImageFont.truetype(path, size, index=index)
+    return ImageFont.load_default(size)
 
 
 FONTS = {
-    "score": lambda s: _font("ariblk.ttf", s),
-    "bold": lambda s: _font("segoeuib.ttf", s),
-    "body": lambda s: _font("segoeui.ttf", s),
-    "cond": lambda s: _font("bahnschrift.ttf", s),
+    "score": lambda s: _font("score", s),
+    "bold": lambda s: _font("bold", s),
+    "body": lambda s: _font("body", s),
+    "cond": lambda s: _font("cond", s),
 }
 
 

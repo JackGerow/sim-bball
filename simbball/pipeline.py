@@ -210,12 +210,22 @@ def main(argv: list[str] | None = None) -> None:
 
 
 def _git_executable() -> str:
-    """Find git.exe when PowerShell cannot see the Git Bash PATH.
-
-    Python on Windows cannot launch git.cmd, so a PATH entry that points at
-    the cmd shim still has to be turned into git.exe.
-    """
+    """Find the git binary on macOS, Linux, and Windows."""
     found = shutil.which("git")
+    if os.name != "nt":
+        if found:
+            return found
+        for path in (
+            Path("/usr/bin/git"),
+            Path("/opt/homebrew/bin/git"),
+            Path("/usr/local/bin/git"),
+        ):
+            if path.is_file():
+                return str(path)
+        raise FileNotFoundError("git was not found. Install git or add it to PATH.")
+
+    # Python on Windows cannot launch git.cmd, so a PATH entry that points at
+    # the cmd shim still has to be turned into git.exe.
     if found and found.lower().endswith(".exe"):
         return found
     candidates: list[Path] = []

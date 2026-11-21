@@ -162,32 +162,63 @@ def _person_key(name: str) -> str:
     return " ".join(parts)
 
 
+def _build_person_index(
+    people: list[tuple[int, str, str]],
+) -> tuple[dict[str, set[int]], dict[str, set[int]], dict[str, set[int]]]:
+    exact: dict[str, set[int]] = {}
+    by_initial_last: dict[str, set[int]] = {}
+    by_last: dict[str, set[int]] = {}
+    for person_id, first, last in people:
+        first_key = _person_key(first)
+        last_key = _person_key(last)
+        full_key = _person_key(f"{first} {last}")
+        exact.setdefault(full_key, set()).add(person_id)
+        if first_key and last_key:
+            by_initial_last.setdefault(f"{first_key[0]} {last_key}", set()).add(person_id)
+        if last_key:
+            by_last.setdefault(last_key, set()).add(person_id)
+    return exact, by_initial_last, by_last
+
+
+def _lookup_person(
+    name: str,
+    exact: dict[str, set[int]],
+    by_initial_last: dict[str, set[int]],
+    by_last: dict[str, set[int]],
+) -> int | None:
+    key = _person_key(name)
+    hits = exact.get(key, set())
+    if len(hits) != 1:
+        parts = key.split()
+        if len(parts) >= 2:
+            hits = by_initial_last.get(f"{parts[0][0]} {' '.join(parts[1:])}", set())
+        if len(hits) != 1 and parts:
+            hits = by_last.get(parts[-1], set())
+    if len(hits) != 1:
+        return None
+    return next(iter(hits))
+
+
+def match_person(name: str, people: list[tuple[int, str, str]]) -> int | None:
+    """Match a single report name to a (person_id, first, last) row for one team."""
+    exact, by_initial_last, by_last = _build_person_index(people)
+    return _lookup_person(name, exact, by_initial_last, by_last)
+
+
 def match_players(injuries: list[Injury], people: list[tuple[int, str, str]]) -> tuple[dict[int, Injury], list[Injury]]:
     """Match report names to (person_id, first, last) rows for one team.
 
     Returns the matched injuries and the names that matched nobody.
     """
-    exact: dict[str, set[int]] = {}
-    by_last: dict[str, set[int]] = {}
-    for person_id, first, last in people:
-        key = _person_key(f"{first} {last}")
-        exact.setdefault(key, set()).add(person_id)
-        last_key = _person_key(last)
-        if last_key:
-            by_last.setdefault(last_key, set()).add(person_id)
+    exact, by_initial_last, by_last = _build_person_index(people)
 
     matched: dict[int, Injury] = {}
     missed: list[Injury] = []
     for injury in injuries:
-        key = _person_key(injury.name)
-        hits = exact.get(key, set())
-        if len(hits) != 1:
-            last_key = key.split()[-1] if key else ""
-            hits = by_last.get(last_key, set())
-        if len(hits) != 1:
+        person_id = _lookup_person(injury.name, exact, by_initial_last, by_last)
+        if person_id is None:
             missed.append(injury)
             continue
-        person_id = next(iter(hits))
         # A player can be listed once. Keep the first row if a paste repeats them.
         matched.setdefault(person_id, injury)
     return matched, missed

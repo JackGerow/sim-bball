@@ -912,7 +912,6 @@ gameId,gameDateTimeEst,gameDay,homeTeamId,awayTeamId,homeTeamName,homeTeamCity,a
 22600313,2026-11-30 19:00:00,Mon,1610612765,1610612743,Pistons,Detroit,Nuggets,Denver,Little Caesars Arena,Detroit,MI,"","","","",7
 22600311,2026-11-29 21:00:00,Sun,1610612758,1610612750,Kings,Sacramento,Timberwolves,Minnesota,Golden 1 Center,Sacramento,CA,"","","","",6
 22600310,2026-11-29 20:30:00,Sun,1610612744,1610612746,Warriors,Golden State,Clippers,LA,Chase Center,San Francisco,CA,"","","","",6
-22600305,2026-11-29 18:00:00,Sun,1610612739,1610612748,Cavaliers,Cleveland,Heat,Miami,Rocket Arena,Cleveland,OH,"","","","",6
 22600306,2026-11-29 18:00:00,Sun,1610612765,1610612753,Pistons,Detroit,Magic,Orlando,Little Caesars Arena,Detroit,MI,"","","","",6
 22600307,2026-11-29 18:00:00,Sun,1610612752,1610612737,Knicks,New York,Hawks,Atlanta,Madison Square Garden,New York,NY,"","","","",6
 22600308,2026-11-29 18:00:00,Sun,1610612761,1610612743,Raptors,Toronto,Nuggets,Denver,Scotiabank Arena,Toronto,ON,"","","","",6
@@ -920,6 +919,7 @@ gameId,gameDateTimeEst,gameDay,homeTeamId,awayTeamId,homeTeamName,homeTeamCity,a
 22600304,2026-11-29 17:00:00,Sun,1610612762,1610612756,Jazz,Utah,Suns,Phoenix,Delta Center,Salt Lake City,UT,"","","","",6
 22600302,2026-11-29 16:00:00,Sun,1610612763,1610612747,Grizzlies,Memphis,Lakers,Los Angeles,FedExForum,Memphis,TN,"","","","",6
 22600303,2026-11-29 16:00:00,Sun,1610612759,1610612738,Spurs,San Antonio,Celtics,Boston,Frost Bank Center,San Antonio,TX,"","","","",6
+22600305,2026-11-29 15:30:00,Sun,1610612739,1610612748,Cavaliers,Cleveland,Heat,Miami,Rocket Arena,Cleveland,OH,"","","","",6
 22600301,2026-11-28 20:30:00,Sat,1610612745,1610612755,Rockets,Houston,76ers,Philadelphia,Toyota Center,Houston,TX,"","","","",6
 22600299,2026-11-28 20:00:00,Sat,1610612741,1610612754,Bulls,Chicago,Pacers,Indiana,United Center,Chicago,IL,"","","","",6
 22600300,2026-11-28 20:00:00,Sat,1610612749,1610612760,Bucks,Milwaukee,Thunder,Oklahoma City,Fiserv Forum,Milwaukee,WI,"","","","",6
