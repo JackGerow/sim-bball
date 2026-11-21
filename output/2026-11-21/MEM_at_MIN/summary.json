@@ -1,0 +1,47 @@
+{
+  "game_id": "22600277",
+  "tip_est": "2026-11-21 20:00:00",
+  "arena": "Target Center, Minneapolis",
+  "away": {
+    "abbrev": "MEM",
+    "city": "Memphis",
+    "name": "Grizzlies",
+    "ortg": 118.9,
+    "drtg": 111.7,
+    "pace": 101.5
+  },
+  "home": {
+    "abbrev": "MIN",
+    "city": "Minnesota",
+    "name": "Timberwolves",
+    "ortg": 110.2,
+    "drtg": 104.9,
+    "pace": 102.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6507,
+  "mean_score": [
+    111.1,
+    117.9
+  ],
+  "median_score": [
+    111,
+    118
+  ],
+  "p10_score": [
+    95,
+    102
+  ],
+  "p90_score": [
+    128,
+    134
+  ],
+  "selected_score": [
+    115,
+    118
+  ],
+  "selected_seed": 1462943807,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-21\\MEM_at_MIN\\simulation.mp4"
+}

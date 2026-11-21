@@ -1,0 +1,47 @@
+{
+  "game_id": "22600275",
+  "tip_est": "2026-11-21 19:30:00",
+  "arena": "Madison Square Garden, New York",
+  "away": {
+    "abbrev": "POR",
+    "city": "Portland",
+    "name": "Trail Blazers",
+    "ortg": 112.2,
+    "drtg": 109.0,
+    "pace": 102.7
+  },
+  "home": {
+    "abbrev": "NYK",
+    "city": "New York",
+    "name": "Knicks",
+    "ortg": 112.9,
+    "drtg": 108.3,
+    "pace": 97.4
+  },
+  "sims": 10000,
+  "home_win_prob": 0.584,
+  "mean_score": [
+    109.7,
+    113.4
+  ],
+  "median_score": [
+    110,
+    113
+  ],
+  "p10_score": [
+    93,
+    97
+  ],
+  "p90_score": [
+    126,
+    130
+  ],
+  "selected_score": [
+    109,
+    112
+  ],
+  "selected_seed": 588048734,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-21\\POR_at_NYK\\simulation.mp4"
+}

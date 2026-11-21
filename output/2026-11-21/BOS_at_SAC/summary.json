@@ -1,0 +1,47 @@
+{
+  "game_id": "22600279",
+  "tip_est": "2026-11-21 22:00:00",
+  "arena": "Golden 1 Center, Sacramento",
+  "away": {
+    "abbrev": "BOS",
+    "city": "Boston",
+    "name": "Celtics",
+    "ortg": 113.7,
+    "drtg": 106.9,
+    "pace": 99.0
+  },
+  "home": {
+    "abbrev": "SAC",
+    "city": "Sacramento",
+    "name": "Kings",
+    "ortg": 107.3,
+    "drtg": 117.5,
+    "pace": 101.6
+  },
+  "sims": 10000,
+  "home_win_prob": 0.2817,
+  "mean_score": [
+    119.3,
+    109.1
+  ],
+  "median_score": [
+    119,
+    109
+  ],
+  "p10_score": [
+    103,
+    93
+  ],
+  "p90_score": [
+    136,
+    125
+  ],
+  "selected_score": [
+    117,
+    110
+  ],
+  "selected_seed": 1694412137,
+  "mode_count": 17,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-21\\BOS_at_SAC\\simulation.mp4"
+}

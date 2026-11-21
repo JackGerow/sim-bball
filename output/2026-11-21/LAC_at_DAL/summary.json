@@ -1,0 +1,47 @@
+{
+  "game_id": "22600276",
+  "tip_est": "2026-11-21 20:00:00",
+  "arena": "American Airlines Center, Dallas",
+  "away": {
+    "abbrev": "LAC",
+    "city": "LA",
+    "name": "Clippers",
+    "ortg": 111.1,
+    "drtg": 114.7,
+    "pace": 101.0
+  },
+  "home": {
+    "abbrev": "DAL",
+    "city": "Dallas",
+    "name": "Mavericks",
+    "ortg": 110.8,
+    "drtg": 111.9,
+    "pace": 104.6
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4487,
+  "mean_score": [
+    117.0,
+    115.1
+  ],
+  "median_score": [
+    117,
+    115
+  ],
+  "p10_score": [
+    101,
+    99
+  ],
+  "p90_score": [
+    133,
+    131
+  ],
+  "selected_score": [
+    116,
+    112
+  ],
+  "selected_seed": 1824753206,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-21\\LAC_at_DAL\\simulation.mp4"
+}

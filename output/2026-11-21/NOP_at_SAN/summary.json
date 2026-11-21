@@ -1,0 +1,47 @@
+{
+  "game_id": "22600278",
+  "tip_est": "2026-11-21 20:00:00",
+  "arena": "Frost Bank Center, San Antonio",
+  "away": {
+    "abbrev": "NOP",
+    "city": "New Orleans",
+    "name": "Pelicans",
+    "ortg": 110.4,
+    "drtg": 117.2,
+    "pace": 101.6
+  },
+  "home": {
+    "abbrev": "SAN",
+    "city": "San Antonio",
+    "name": "Spurs",
+    "ortg": 114.6,
+    "drtg": 107.5,
+    "pace": 101.0
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7153,
+  "mean_score": [
+    110.9,
+    120.7
+  ],
+  "median_score": [
+    111,
+    120
+  ],
+  "p10_score": [
+    96,
+    105
+  ],
+  "p90_score": [
+    126,
+    137
+  ],
+  "selected_score": [
+    111,
+    123
+  ],
+  "selected_seed": 1152564893,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-21\\NOP_at_SAN\\simulation.mp4"
+}
