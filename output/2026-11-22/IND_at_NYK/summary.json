@@ -1,0 +1,47 @@
+{
+  "game_id": "22600285",
+  "tip_est": "2026-11-22 20:00:00",
+  "arena": "Madison Square Garden, New York",
+  "away": {
+    "abbrev": "IND",
+    "city": "Indiana",
+    "name": "Pacers",
+    "ortg": 110.8,
+    "drtg": 112.8,
+    "pace": 101.5
+  },
+  "home": {
+    "abbrev": "NYK",
+    "city": "New York",
+    "name": "Knicks",
+    "ortg": 112.3,
+    "drtg": 108.1,
+    "pace": 96.8
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5881,
+  "mean_score": [
+    110.6,
+    114.6
+  ],
+  "median_score": [
+    110,
+    114
+  ],
+  "p10_score": [
+    95,
+    99
+  ],
+  "p90_score": [
+    127,
+    131
+  ],
+  "selected_score": [
+    116,
+    113
+  ],
+  "selected_seed": 1254194777,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-22\\IND_at_NYK\\simulation.mp4"
+}

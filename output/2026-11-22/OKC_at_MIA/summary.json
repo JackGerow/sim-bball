@@ -1,0 +1,47 @@
+{
+  "game_id": "22600281",
+  "tip_est": "2026-11-22 18:00:00",
+  "arena": "Kaseya Center, Miami",
+  "away": {
+    "abbrev": "OKC",
+    "city": "Oklahoma City",
+    "name": "Thunder",
+    "ortg": 112.4,
+    "drtg": 109.2,
+    "pace": 107.6
+  },
+  "home": {
+    "abbrev": "MIA",
+    "city": "Miami",
+    "name": "Heat",
+    "ortg": 115.8,
+    "drtg": 114.3,
+    "pace": 103.7
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4235,
+  "mean_score": [
+    122.0,
+    118.7
+  ],
+  "median_score": [
+    122,
+    119
+  ],
+  "p10_score": [
+    106,
+    102
+  ],
+  "p90_score": [
+    138,
+    135
+  ],
+  "selected_score": [
+    114,
+    123
+  ],
+  "selected_seed": 847202472,
+  "mode_count": 22,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-22\\OKC_at_MIA\\simulation.mp4"
+}

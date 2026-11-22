@@ -1,0 +1,47 @@
+{
+  "game_id": "22600283",
+  "tip_est": "2026-11-22 19:00:00",
+  "arena": "United Center, Chicago",
+  "away": {
+    "abbrev": "DEN",
+    "city": "Denver",
+    "name": "Nuggets",
+    "ortg": 114.1,
+    "drtg": 112.6,
+    "pace": 100.2
+  },
+  "home": {
+    "abbrev": "CHI",
+    "city": "Chicago",
+    "name": "Bulls",
+    "ortg": 110.4,
+    "drtg": 112.3,
+    "pace": 105.5
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4212,
+  "mean_score": [
+    122.3,
+    118.7
+  ],
+  "median_score": [
+    122,
+    118
+  ],
+  "p10_score": [
+    106,
+    102
+  ],
+  "p90_score": [
+    138,
+    135
+  ],
+  "selected_score": [
+    118,
+    125
+  ],
+  "selected_seed": 387188246,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-22\\DEN_at_CHI\\simulation.mp4"
+}

@@ -1,0 +1,47 @@
+{
+  "game_id": "22600282",
+  "tip_est": "2026-11-22 19:00:00",
+  "arena": "Capital One Arena, Washington",
+  "away": {
+    "abbrev": "ORL",
+    "city": "Orlando",
+    "name": "Magic",
+    "ortg": 112.0,
+    "drtg": 111.3,
+    "pace": 99.2
+  },
+  "home": {
+    "abbrev": "WAS",
+    "city": "Washington",
+    "name": "Wizards",
+    "ortg": 109.3,
+    "drtg": 114.4,
+    "pace": 100.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.3613,
+  "mean_score": [
+    114.7,
+    108.6
+  ],
+  "median_score": [
+    115,
+    109
+  ],
+  "p10_score": [
+    99,
+    93
+  ],
+  "p90_score": [
+    131,
+    124
+  ],
+  "selected_score": [
+    117,
+    111
+  ],
+  "selected_seed": 722038941,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-22\\ORL_at_WAS\\simulation.mp4"
+}
