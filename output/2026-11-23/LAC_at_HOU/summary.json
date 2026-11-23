@@ -19,17 +19,17 @@
     "pace": 99.8
   },
   "sims": 10000,
-  "home_win_prob": 0.5113,
+  "home_win_prob": 0.5002,
   "mean_score": [
-    113.6,
+    113.9,
     113.9
   ],
   "median_score": [
-    113,
+    114,
     114
   ],
   "p10_score": [
-    97,
+    98,
     98
   ],
   "p90_score": [
@@ -37,10 +37,10 @@
     130
   ],
   "selected_score": [
-    109,
-    112
+    115,
+    111
   ],
-  "selected_seed": 1863364668,
+  "selected_seed": 572983422,
   "mode_count": 20,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-23\\LAC_at_HOU\\simulation.mp4"

@@ -19,28 +19,28 @@
     "pace": 101.7
   },
   "sims": 10000,
-  "home_win_prob": 0.4758,
+  "home_win_prob": 0.4376,
   "mean_score": [
-    118.1,
-    117.2
+    119.7,
+    117.0
   ],
   "median_score": [
-    118,
+    120,
     117
   ],
   "p10_score": [
-    101,
+    103,
     101
   ],
   "p90_score": [
-    135,
+    136,
     133
   ],
   "selected_score": [
-    116,
-    119
+    112,
+    114
   ],
-  "selected_seed": 735306294,
+  "selected_seed": 386666656,
   "mode_count": 19,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-23\\OKC_at_IND\\simulation.mp4"

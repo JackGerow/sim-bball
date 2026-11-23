@@ -19,28 +19,28 @@
     "pace": 105.1
   },
   "sims": 10000,
-  "home_win_prob": 0.4717,
+  "home_win_prob": 0.4672,
   "mean_score": [
-    122.5,
-    121.1
+    122.6,
+    121.0
   ],
   "median_score": [
-    122,
+    123,
     121
   ],
   "p10_score": [
     106,
-    105
+    104
   ],
   "p90_score": [
     139,
     138
   ],
   "selected_score": [
-    119,
-    129
+    124,
+    119
   ],
-  "selected_seed": 407183335,
+  "selected_seed": 1653730111,
   "mode_count": 18,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-23\\CLE_at_CHI\\simulation.mp4"

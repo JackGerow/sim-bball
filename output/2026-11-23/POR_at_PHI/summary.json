@@ -19,17 +19,17 @@
     "pace": 100.7
   },
   "sims": 10000,
-  "home_win_prob": 0.5117,
+  "home_win_prob": 0.5123,
   "mean_score": [
     114.2,
-    114.8
+    114.9
   ],
   "median_score": [
     114,
     115
   ],
   "p10_score": [
-    98,
+    99,
     99
   ],
   "p90_score": [
@@ -37,11 +37,11 @@
     131
   ],
   "selected_score": [
-    107,
-    117
+    112,
+    118
   ],
-  "selected_seed": 438396878,
-  "mode_count": 20,
+  "selected_seed": 1873647615,
+  "mode_count": 21,
   "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
   "video": "output\\2026-11-23\\POR_at_PHI\\simulation.mp4"
 }
