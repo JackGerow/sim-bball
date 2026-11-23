@@ -1,0 +1,47 @@
+{
+  "game_id": "22600293",
+  "tip_est": "2026-11-23 20:00:00",
+  "arena": "Smoothie King Center, New Orleans",
+  "away": {
+    "abbrev": "PHX",
+    "city": "Phoenix",
+    "name": "Suns",
+    "ortg": 114.4,
+    "drtg": 111.4,
+    "pace": 102.8
+  },
+  "home": {
+    "abbrev": "NOP",
+    "city": "New Orleans",
+    "name": "Pelicans",
+    "ortg": 109.1,
+    "drtg": 117.7,
+    "pace": 101.6
+  },
+  "sims": 10000,
+  "home_win_prob": 0.3741,
+  "mean_score": [
+    118.6,
+    113.2
+  ],
+  "median_score": [
+    119,
+    113
+  ],
+  "p10_score": [
+    102,
+    98
+  ],
+  "p90_score": [
+    135,
+    129
+  ],
+  "selected_score": [
+    120,
+    119
+  ],
+  "selected_seed": 1766686431,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-23\\PHX_at_NOP\\simulation.mp4"
+}

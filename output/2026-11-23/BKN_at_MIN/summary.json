@@ -1,0 +1,47 @@
+{
+  "game_id": "22600291",
+  "tip_est": "2026-11-23 19:30:00",
+  "arena": "Target Center, Minneapolis",
+  "away": {
+    "abbrev": "BKN",
+    "city": "Brooklyn",
+    "name": "Nets",
+    "ortg": 111.0,
+    "drtg": 117.1,
+    "pace": 101.0
+  },
+  "home": {
+    "abbrev": "MIN",
+    "city": "Minnesota",
+    "name": "Timberwolves",
+    "ortg": 110.2,
+    "drtg": 104.1,
+    "pace": 101.5
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7223,
+  "mean_score": [
+    108.0,
+    118.0
+  ],
+  "median_score": [
+    108,
+    118
+  ],
+  "p10_score": [
+    92,
+    102
+  ],
+  "p90_score": [
+    124,
+    134
+  ],
+  "selected_score": [
+    110,
+    116
+  ],
+  "selected_seed": 1717184736,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-23\\BKN_at_MIN\\simulation.mp4"
+}

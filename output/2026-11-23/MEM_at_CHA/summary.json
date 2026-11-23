@@ -1,0 +1,47 @@
+{
+  "game_id": "22600287",
+  "tip_est": "2026-11-23 19:00:00",
+  "arena": "Spectrum Center, Charlotte",
+  "away": {
+    "abbrev": "MEM",
+    "city": "Memphis",
+    "name": "Grizzlies",
+    "ortg": 116.6,
+    "drtg": 111.6,
+    "pace": 101.4
+  },
+  "home": {
+    "abbrev": "CHA",
+    "city": "Charlotte",
+    "name": "Hornets",
+    "ortg": 105.1,
+    "drtg": 113.1,
+    "pace": 98.6
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4337,
+  "mean_score": [
+    114.1,
+    111.2
+  ],
+  "median_score": [
+    114,
+    111
+  ],
+  "p10_score": [
+    98,
+    95
+  ],
+  "p90_score": [
+    130,
+    127
+  ],
+  "selected_score": [
+    116,
+    112
+  ],
+  "selected_seed": 1013226188,
+  "mode_count": 21,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-23\\MEM_at_CHA\\simulation.mp4"
+}

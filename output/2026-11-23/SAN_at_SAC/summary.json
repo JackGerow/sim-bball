@@ -1,0 +1,47 @@
+{
+  "game_id": "22600296",
+  "tip_est": "2026-11-23 22:00:00",
+  "arena": "Golden 1 Center, Sacramento",
+  "away": {
+    "abbrev": "SAN",
+    "city": "San Antonio",
+    "name": "Spurs",
+    "ortg": 114.8,
+    "drtg": 106.2,
+    "pace": 100.6
+  },
+  "home": {
+    "abbrev": "SAC",
+    "city": "Sacramento",
+    "name": "Kings",
+    "ortg": 106.9,
+    "drtg": 114.8,
+    "pace": 100.7
+  },
+  "sims": 10000,
+  "home_win_prob": 0.3136,
+  "mean_score": [
+    118.1,
+    110.1
+  ],
+  "median_score": [
+    118,
+    110
+  ],
+  "p10_score": [
+    102,
+    94
+  ],
+  "p90_score": [
+    134,
+    126
+  ],
+  "selected_score": [
+    124,
+    112
+  ],
+  "selected_seed": 268865158,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-23\\SAN_at_SAC\\simulation.mp4"
+}

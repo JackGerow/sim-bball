@@ -1,0 +1,47 @@
+{
+  "game_id": "22600294",
+  "tip_est": "2026-11-23 20:30:00",
+  "arena": "Toyota Center, Houston",
+  "away": {
+    "abbrev": "LAC",
+    "city": "LA",
+    "name": "Clippers",
+    "ortg": 110.8,
+    "drtg": 114.6,
+    "pace": 100.3
+  },
+  "home": {
+    "abbrev": "HOU",
+    "city": "Houston",
+    "name": "Rockets",
+    "ortg": 117.7,
+    "drtg": 113.6,
+    "pace": 99.8
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5113,
+  "mean_score": [
+    113.6,
+    113.9
+  ],
+  "median_score": [
+    113,
+    114
+  ],
+  "p10_score": [
+    97,
+    98
+  ],
+  "p90_score": [
+    130,
+    130
+  ],
+  "selected_score": [
+    109,
+    112
+  ],
+  "selected_seed": 1863364668,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-23\\LAC_at_HOU\\simulation.mp4"
+}

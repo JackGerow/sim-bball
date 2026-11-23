@@ -1,0 +1,47 @@
+{
+  "game_id": "22600288",
+  "tip_est": "2026-11-23 19:00:00",
+  "arena": "Xfinity Mobile Arena, Philadelphia",
+  "away": {
+    "abbrev": "POR",
+    "city": "Portland",
+    "name": "Trail Blazers",
+    "ortg": 111.7,
+    "drtg": 108.9,
+    "pace": 101.6
+  },
+  "home": {
+    "abbrev": "PHI",
+    "city": "Philadelphia",
+    "name": "76ers",
+    "ortg": 116.8,
+    "drtg": 114.3,
+    "pace": 100.7
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5074,
+  "mean_score": [
+    114.1,
+    114.3
+  ],
+  "median_score": [
+    114,
+    114
+  ],
+  "p10_score": [
+    98,
+    99
+  ],
+  "p90_score": [
+    130,
+    130
+  ],
+  "selected_score": [
+    113,
+    108
+  ],
+  "selected_seed": 1490933040,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-23\\POR_at_PHI\\simulation.mp4"
+}

@@ -1,0 +1,47 @@
+{
+  "game_id": "22600292",
+  "tip_est": "2026-11-23 20:00:00",
+  "arena": "United Center, Chicago",
+  "away": {
+    "abbrev": "CLE",
+    "city": "Cleveland",
+    "name": "Cavaliers",
+    "ortg": 115.9,
+    "drtg": 114.4,
+    "pace": 104.5
+  },
+  "home": {
+    "abbrev": "CHI",
+    "city": "Chicago",
+    "name": "Bulls",
+    "ortg": 112.1,
+    "drtg": 114.4,
+    "pace": 105.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4717,
+  "mean_score": [
+    122.5,
+    121.1
+  ],
+  "median_score": [
+    122,
+    121
+  ],
+  "p10_score": [
+    106,
+    105
+  ],
+  "p90_score": [
+    139,
+    138
+  ],
+  "selected_score": [
+    119,
+    129
+  ],
+  "selected_seed": 407183335,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-23\\CLE_at_CHI\\simulation.mp4"
+}

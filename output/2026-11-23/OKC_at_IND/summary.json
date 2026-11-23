@@ -1,0 +1,47 @@
+{
+  "game_id": "22600289",
+  "tip_est": "2026-11-23 19:30:00",
+  "arena": "Gainbridge Fieldhouse, Indianapolis",
+  "away": {
+    "abbrev": "OKC",
+    "city": "Oklahoma City",
+    "name": "Thunder",
+    "ortg": 112.1,
+    "drtg": 110.7,
+    "pace": 107.1
+  },
+  "home": {
+    "abbrev": "IND",
+    "city": "Indiana",
+    "name": "Pacers",
+    "ortg": 110.0,
+    "drtg": 112.3,
+    "pace": 101.7
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4758,
+  "mean_score": [
+    118.1,
+    117.2
+  ],
+  "median_score": [
+    118,
+    117
+  ],
+  "p10_score": [
+    101,
+    101
+  ],
+  "p90_score": [
+    135,
+    133
+  ],
+  "selected_score": [
+    116,
+    119
+  ],
+  "selected_seed": 735306294,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-23\\OKC_at_IND\\simulation.mp4"
+}
