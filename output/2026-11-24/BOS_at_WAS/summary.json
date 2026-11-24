@@ -1,0 +1,47 @@
+{
+  "game_id": "22600053",
+  "tip_est": "2026-11-24 20:00:00",
+  "arena": "Capital One Arena, Washington",
+  "away": {
+    "abbrev": "BOS",
+    "city": "Boston",
+    "name": "Celtics",
+    "ortg": 110.9,
+    "drtg": 106.0,
+    "pace": 98.2
+  },
+  "home": {
+    "abbrev": "WAS",
+    "city": "Washington",
+    "name": "Wizards",
+    "ortg": 110.8,
+    "drtg": 113.5,
+    "pace": 99.4
+  },
+  "sims": 10000,
+  "home_win_prob": 0.2184,
+  "mean_score": [
+    116.7,
+    103.6
+  ],
+  "median_score": [
+    117,
+    103
+  ],
+  "p10_score": [
+    101,
+    88
+  ],
+  "p90_score": [
+    133,
+    119
+  ],
+  "selected_score": [
+    117,
+    104
+  ],
+  "selected_seed": 1790209245,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-24\\BOS_at_WAS\\simulation.mp4"
+}

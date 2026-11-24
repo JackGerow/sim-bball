@@ -1,0 +1,47 @@
+{
+  "game_id": "22600054",
+  "tip_est": "2026-11-24 22:00:00",
+  "arena": "Ball Arena, Denver",
+  "away": {
+    "abbrev": "DAL",
+    "city": "Dallas",
+    "name": "Mavericks",
+    "ortg": 111.7,
+    "drtg": 111.6,
+    "pace": 103.2
+  },
+  "home": {
+    "abbrev": "DEN",
+    "city": "Denver",
+    "name": "Nuggets",
+    "ortg": 116.1,
+    "drtg": 114.2,
+    "pace": 100.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6228,
+  "mean_score": [
+    115.6,
+    120.8
+  ],
+  "median_score": [
+    116,
+    121
+  ],
+  "p10_score": [
+    100,
+    105
+  ],
+  "p90_score": [
+    132,
+    136
+  ],
+  "selected_score": [
+    120,
+    116
+  ],
+  "selected_seed": 1411160881,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-24\\DAL_at_DEN\\simulation.mp4"
+}

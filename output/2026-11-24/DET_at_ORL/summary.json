@@ -1,0 +1,47 @@
+{
+  "game_id": "22600052",
+  "tip_est": "2026-11-24 19:00:00",
+  "arena": "Kia Center, Orlando",
+  "away": {
+    "abbrev": "DET",
+    "city": "Detroit",
+    "name": "Pistons",
+    "ortg": 113.1,
+    "drtg": 110.6,
+    "pace": 98.7
+  },
+  "home": {
+    "abbrev": "ORL",
+    "city": "Orlando",
+    "name": "Magic",
+    "ortg": 111.3,
+    "drtg": 112.6,
+    "pace": 98.6
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4953,
+  "mean_score": [
+    108.1,
+    107.9
+  ],
+  "median_score": [
+    108,
+    108
+  ],
+  "p10_score": [
+    93,
+    92
+  ],
+  "p90_score": [
+    124,
+    124
+  ],
+  "selected_score": [
+    111,
+    107
+  ],
+  "selected_seed": 921125134,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-24\\DET_at_ORL\\simulation.mp4"
+}
