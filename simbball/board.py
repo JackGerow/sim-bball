@@ -70,6 +70,33 @@ def _abbrev(directory: dict, city: str, name: str) -> str:
     return (name or city or "")[:3].upper()
 
 
+def _season(logs: pl.DataFrame) -> dict[int, tuple[dict, int]]:
+    played = logs.filter(pl.col("numMinutes") > 0)
+    totals = played.group_by("personId").agg(
+        pl.len().alias("games"),
+        pl.col("numMinutes").mean().alias("minutes"),
+        pl.col("points").mean().alias("pts"),
+        pl.col("reboundsTotal").mean().alias("reb"),
+        pl.col("assists").mean().alias("ast"),
+        pl.col("steals").mean().alias("stl"),
+        pl.col("blocks").mean().alias("blk"),
+        pl.col("turnovers").mean().alias("tov"),
+        pl.col("foulsPersonal").mean().alias("pf"),
+        pl.col("fieldGoalsMade").mean().alias("fgm"),
+        pl.col("fieldGoalsAttempted").mean().alias("fga"),
+        pl.col("threePointersMade").mean().alias("fg3m"),
+        pl.col("threePointersAttempted").mean().alias("fg3a"),
+        pl.col("freeThrowsMade").mean().alias("ftm"),
+        pl.col("freeThrowsAttempted").mean().alias("fta"),
+    )
+    averages: dict[int, tuple[dict, int]] = {}
+    fields = ("minutes", "pts", "reb", "ast", "stl", "blk", "tov", "pf", "fgm", "fga", "fg3m", "fg3a", "ftm", "fta")
+    for row in totals.iter_rows(named=True):
+        line = {field: round(float(row[field] or 0), 1) for field in fields}
+        averages[int(row["personId"])] = (line, int(row["games"]))
+    return averages
+
+
 def _recent(logs: pl.DataFrame, directory: dict) -> dict[int, list[dict]]:
     played = logs.filter(pl.col("numMinutes") > 0).sort("gameDateTimeEst")
     columns = [
@@ -189,6 +216,7 @@ def write_board(raw: Path, day: date, out_dir: Path) -> None:
     logs = _read_player_logs(raw, day)
     positions = _positions(raw, logs)
     recent = _recent(logs, directory)
+    season = _season(logs)
     players = []
     for game in games:
         slug = _slug(game)
@@ -219,6 +247,8 @@ def write_board(raw: Path, day: date, out_dir: Path) -> None:
                     "position": positions.get(person_id, ""),
                     "jersey": row["jersey"],
                     "fg_pct": round(made / attempted, 4) if attempted else 0.0,
+                    "season": season.get(person_id, (None, 0))[0],
+                    "season_games": season.get(person_id, (None, 0))[1],
                     "last5": recent.get(person_id, []),
                     "mean": _line(row),
                     "common": _line(common.get(person_id)),
@@ -233,5 +263,5 @@ def write_board(raw: Path, day: date, out_dir: Path) -> None:
         "injuries": _injuries(raw, games),
     }
     (out_dir / "board.json").write_text(json.dumps(payload), encoding="utf-8")
-    above = sum(1 for row in players if row["fg_pct"] > 0.49)
-    print(f"Player board  {day.isoformat()}  {len(players)} projected  {above} above 49% FG", flush=True)
+    above = sum(1 for row in players if row["fg_pct"] > 0.5)
+    print(f"Player board  {day.isoformat()}  {len(players)} projected  {above} above 50% FG", flush=True)
