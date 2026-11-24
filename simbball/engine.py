@@ -56,6 +56,10 @@ class MatchupResult:
     mean_sec_home: np.ndarray
     mean_box_away: np.ndarray
     mean_sec_away: np.ndarray
+    mode_box_home: np.ndarray
+    mode_sec_home: np.ndarray
+    mode_box_away: np.ndarray
+    mode_sec_away: np.ndarray
     selected: GameSim
     selected_index: int
     mode_count: int
@@ -766,6 +770,10 @@ def simulate_many(
     sum_box_a = np.zeros((len(away.players), NSTATS), dtype=np.float64)
     sum_sec_h = np.zeros(len(home.players), dtype=np.float64)
     sum_sec_a = np.zeros(len(away.players), dtype=np.float64)
+    boxes_h = np.empty((n, len(home.players), NSTATS), dtype=np.float32)
+    boxes_a = np.empty((n, len(away.players), NSTATS), dtype=np.float32)
+    secs_h = np.empty((n, len(home.players)), dtype=np.float32)
+    secs_a = np.empty((n, len(away.players)), dtype=np.float32)
     label = f"{away.abbrev}@{home.abbrev}"
     for index, game_seed in enumerate(seeds):
         if index and index % 2000 == 0:
@@ -781,7 +789,12 @@ def simulate_many(
         sum_box_a += sim.box_away
         sum_sec_h += sim.sec_home
         sum_sec_a += sim.sec_away
+        boxes_h[index] = sim.box_home
+        boxes_a[index] = sim.box_away
+        secs_h[index] = sim.sec_home
+        secs_a[index] = sim.sec_away
     best, mode_count = _most_common_score(scores, pts_h, pts_a, reb_h, reb_a)
+    members = (scores[:, 0] == scores[best, 0]) & (scores[:, 1] == scores[best, 1])
     selected = simulate_game(home, away, league, int(seeds[best]), record=True)
     if selected.home_score != int(scores[best, 0]) or selected.away_score != int(scores[best, 1]):
         raise RuntimeError(
@@ -794,6 +807,10 @@ def simulate_many(
         mean_sec_home=sum_sec_h / n,
         mean_box_away=sum_box_a / n,
         mean_sec_away=sum_sec_a / n,
+        mode_box_home=boxes_h[members].mean(axis=0),
+        mode_sec_home=secs_h[members].mean(axis=0),
+        mode_box_away=boxes_a[members].mean(axis=0),
+        mode_sec_away=secs_a[members].mean(axis=0),
         selected=selected,
         selected_index=best,
         mode_count=mode_count,

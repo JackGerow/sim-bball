@@ -8,7 +8,15 @@ from pathlib import Path
 
 import polars as pl
 
-from simbball.reports import Injury, canonical_team, load_injuries, match_players
+from simbball.reports import (
+    Injury,
+    canonical_team,
+    load_depth_charts,
+    load_injuries,
+    match_person,
+    match_players,
+    resolve_team,
+)
 from simbball.teams import TeamInfo, load_directory
 
 # Games of league-average prior mixed into team ratings. The 2026-27
@@ -20,6 +28,14 @@ TEAM_PRIOR_GAMES = 6
 # league by this many minutes.
 PLAYER_PRIOR_MIN = 96.0
 DECAY = 0.90
+# A player who appeared in any of the team's recent games stays on the
+# roster. The injury file only removes someone it lists as out or doubtful.
+# It does not have to name a healthy player for him to be included.
+ROSTER_GAMES = 8
+_POSITIONS = ("PG", "SG", "SF", "PF", "C")
+# Less than one recent start, so a real replacement beats the depth chart
+# and the chart only fills a spot the box scores never covered.
+_DEPTH_BONUS = (0.25, 0.15, 0.08)
 # Veteran skills shrink toward the player's own 2023-24 through 2025-26
 # line. Recent seasons count more. Going further back starts describing
 # a different player.
@@ -548,17 +564,130 @@ def _weighted_team_row(rows: list[dict], league: League, league_raw: dict) -> di
     }
 
 
+def _best_position(slots: list[tuple[str, int]] | None) -> str | None:
+    if not slots:
+        return None
+    return min(slots, key=lambda item: (item[1], _POSITIONS.index(item[0])))[0]
+
+
+def _rank_at(slots: list[tuple[str, int]] | None, position: str | None) -> int | None:
+    if not slots or position is None:
+        return None
+    ranks = [rank for pos, rank in slots if pos == position]
+    return min(ranks) if ranks else None
+
+
+def _depth_charts(raw: Path, directory: dict[int, TeamInfo], names_by_team: dict[int, list[tuple[int, str, str]]]) -> dict[int, dict[int, list[tuple[str, int]]]]:
+    path = raw / "depth-charts.txt"
+    if not path.exists():
+        return {}
+    full_names = {team_id: f"{info.city} {info.name}" for team_id, info in directory.items()}
+    by_team: dict[int, dict[int, list[tuple[str, int]]]] = {}
+    slots_by_label: dict[str, list] = {}
+    for slot in load_depth_charts(path):
+        slots_by_label.setdefault(slot.team, []).append(slot)
+    for label, slots in slots_by_label.items():
+        resolved = resolve_team(label, list(full_names.values()))
+        if resolved is None:
+            continue
+        team_id = next(team_id for team_id, name in full_names.items() if name == resolved)
+        chart: dict[int, list[tuple[str, int]]] = {}
+        people = names_by_team.get(team_id, [])
+        for slot in slots:
+            person_id = match_person(slot.name, people)
+            if person_id is None:
+                continue
+            chart.setdefault(person_id, []).append((slot.position, slot.rank))
+        by_team[team_id] = chart
+    return by_team
+
+
+def _choose_starters(
+    players: list[Player],
+    by_player: dict[int, list[dict]],
+    game_ids: list,
+    held_out: set[int],
+    chart: dict[int, list[tuple[str, int]]],
+) -> None:
+    """Pick the five who usually start. An injured starter's spot goes to whoever has started when he sat, with the depth chart used when that sample is thin."""
+    available = {player.person_id for player in players}
+    age = {game_id: index for index, game_id in enumerate(reversed(game_ids))}
+    weights: dict[int, float] = {}
+    started_in: dict[object, set[int]] = {}
+    for person_id, games in by_player.items():
+        weight = 0.0
+        for game in games:
+            if not str(game.get("startingPosition") or "").strip():
+                continue
+            weight += DECAY ** age.get(game["gameId"], len(game_ids))
+            started_in.setdefault(game["gameId"], set()).add(person_id)
+        if weight > 0:
+            weights[person_id] = weight
+
+    ranked = sorted(
+        (person_id for person_id in available | held_out if weights.get(person_id, 0.0) > 0),
+        key=lambda person_id: (weights[person_id], -person_id),
+        reverse=True,
+    )
+    usual = ranked[:5]
+    holes = sorted((person_id for person_id in usual if person_id not in available), key=lambda person_id: weights[person_id], reverse=True)
+    chosen = [person_id for person_id in usual if person_id in available]
+
+    for hole in holes:
+        position = _best_position(chart.get(hole))
+        charted = sorted(
+            (
+                (_rank_at(chart.get(person_id), position), person_id)
+                for person_id in available
+                if person_id not in chosen and _rank_at(chart.get(person_id), position) is not None
+            ),
+            key=lambda item: (item[0], item[1]),
+        )
+        bonus = {
+            person_id: _DEPTH_BONUS[index] if index < len(_DEPTH_BONUS) else 0.04
+            for index, (_, person_id) in enumerate(charted)
+        }
+        best_id = None
+        best_key = None
+        for person_id in available:
+            if person_id in chosen:
+                continue
+            history = 0.0
+            for game_id, starters in started_in.items():
+                if hole in starters or person_id not in starters:
+                    continue
+                history += DECAY ** age.get(game_id, len(game_ids))
+            score = history + bonus.get(person_id, 0.0)
+            if score <= 0:
+                continue
+            key = (score, history, -(_rank_at(chart.get(person_id), position) or 99))
+            if best_key is None or key > best_key:
+                best_key = key
+                best_id = person_id
+        if best_id is not None:
+            chosen.append(best_id)
+
+    chosen_ids = set(chosen)
+    for player in players:
+        player.starter = player.person_id in chosen_ids
+
+
 def _player_pool(
     logs: pl.DataFrame,
     team_id: int,
-    roster_rows: list[dict],
     info: dict,
     career: dict[int, dict],
     held_out: set[int] | None = None,
     cleared: set[int] | None = None,
+    latest_team: dict[int, int] | None = None,
+    name_map: dict[int, tuple[str, bool, bool]] | None = None,
+    chart: dict[int, list[tuple[str, int]]] | None = None,
 ) -> list[Player]:
     held_out = held_out or set()
     cleared = cleared or set()
+    latest_team = latest_team or {}
+    name_map = name_map or {}
+    chart = chart or {}
     team_logs = logs.filter(pl.col("playerteamId") == team_id).sort("gameDateTimeEst")
     games = (
         team_logs.select(["gameId", "gameDateTimeEst"])
@@ -566,25 +695,36 @@ def _player_pool(
         .sort("gameDateTimeEst")
     )
     game_ids = games["gameId"].to_list()
-    last_ids = set(game_ids[-8:])
+    last_ids = set(game_ids[-ROSTER_GAMES:])
     by_player: dict[int, list[dict]] = {}
     for row in team_logs.iter_rows(named=True):
         by_player.setdefault(int(row["personId"]), []).append(row)
 
-    # A player ruled back in may have missed the last game entirely.
-    present = {int(row["personId"]) for row in roster_rows}
-    roster = list(roster_rows)
+    # Anyone who appeared in a recent game is on the team. The injury
+    # report sits the players it lists. A healthy player does not have to
+    # be named there, and one missing box-score row does not drop him.
+    roster: list[dict] = []
     for person_id, games_played in by_player.items():
-        if person_id in cleared and person_id not in present and person_id not in held_out:
-            roster.append(games_played[-1])
+        if person_id in held_out:
+            continue
+        if latest_team.get(person_id, team_id) != team_id:
+            continue
+        recent = [game for game in games_played if game["gameId"] in last_ids]
+        if not recent and person_id not in cleared:
+            continue
+        row = dict(recent[-1] if recent else games_played[-1])
+        meta = name_map.get(person_id)
+        if meta:
+            row["_guard"] = "1" if meta[1] else "0"
+            row["_center"] = "1" if meta[2] else "0"
+        else:
+            row["_guard"] = "0"
+            row["_center"] = "0"
+        roster.append(row)
 
     players: list[Player] = []
     for row in roster:
         pid = int(row["personId"])
-        if pid in held_out:
-            continue
-        if _is_out(row["comment"]) and pid not in cleared:
-            continue
         season_logs = by_player.get(pid, [])
         rate_num = {k: 0.0 for k in ("min", "fga", "fgm", "fg3a", "fg3m", "fta", "ftm", "oreb", "dreb", "ast", "stl", "blk", "tov", "pf", "pts")}
         rate_w = 0.0
@@ -619,25 +759,20 @@ def _player_pool(
                 ("points", "pts"),
             ):
                 rate_num[dst] += w * float(game[src])
-        if pid in cleared and not minute_samples:
+        if not minute_samples and pid in cleared:
             for game in reversed(season_logs):
                 if float(game["numMinutes"]) > 0 and not _is_out(game["comment"]):
                     minute_samples.append(float(game["numMinutes"]))
-                if len(minute_samples) >= 8:
+                if len(minute_samples) >= ROSTER_GAMES:
                     break
-        if not minute_samples and float(row["numMinutes"]) <= 0:
+        if not minute_samples:
             continue
-        target = sum(minute_samples) / len(minute_samples) if minute_samples else float(row["numMinutes"])
+        target = sum(minute_samples) / len(minute_samples)
         minutes = rate_num["min"]
-        started = str(row.get("startingPosition") or "").strip() != ""
-        if pid in cleared and not started:
-            for game in reversed(season_logs):
-                if float(game["numMinutes"]) > 0 and not _is_out(game["comment"]):
-                    started = str(game.get("startingPosition") or "").strip() != ""
-                    break
         players.append(
-            _make_player(row, info, rate_num, minutes, target, started, career.get(pid))
+            _make_player(row, info, rate_num, minutes, target, False, career.get(pid))
         )
+    _choose_starters(players, by_player, game_ids, held_out, chart)
     return players
 
 
@@ -802,6 +937,14 @@ def build_world(raw: Path, day: date | None = None) -> World:
     ruled_out: list[str] = []
     ruled_in: list[str] = []
     unmatched: list[str] = []
+    added_names: list[str] = []
+    latest_rows = (
+        logs.sort("gameDateTimeEst")
+        .group_by("personId", maintain_order=True)
+        .agg(pl.col("playerteamId").last())
+    )
+    latest_team = {int(person_id): int(team) for person_id, team in latest_rows.iter_rows()}
+    charts = _depth_charts(raw, directory, names_by_team)
     # Ratings for every NBA team keep an opponent lookup available even if
     # the slate is short. Building all 30 is cheap once the logs are in memory.
     if not needed:
@@ -832,14 +975,6 @@ def build_world(raw: Path, day: date | None = None) -> World:
         roster_rows = logs.filter(
             (pl.col("playerteamId") == team_id) & (pl.col("gameId") == last_game)
         ).to_dicts()
-        for row in roster_rows:
-            meta = name_map.get(int(row["personId"]))
-            if meta:
-                row["_guard"] = "1" if meta[1] else "0"
-                row["_center"] = "1" if meta[2] else "0"
-            else:
-                row["_guard"] = "0"
-                row["_center"] = "0"
         info_row["priors"] = _league_player_priors(league)
         team_key = canonical_team(f"{info.city} {info.name}")
         matched, missed = match_players(injuries_by_team.get(team_key, []), names_by_team.get(team_id, []))
@@ -848,8 +983,23 @@ def build_world(raw: Path, day: date | None = None) -> World:
         for injury in missed:
             unmatched.append(f"{info.abbrev} {injury.name}")
         on_last = {int(row["personId"]): row for row in roster_rows}
-        roster = _player_pool(logs, team_id, roster_rows, info_row, history, held_out, cleared)
+        roster = _player_pool(
+            logs,
+            team_id,
+            info_row,
+            history,
+            held_out,
+            cleared,
+            latest_team,
+            name_map,
+            charts.get(team_id, {}),
+        )
         ordered, starter_idx = _finish_roster(roster, jersey_map, name_map)
+        added = [player for player in ordered if player.person_id not in on_last]
+        if added:
+            added_names.append(
+                info.abbrev + " " + ", ".join(f"{player.first} {player.last}" for player in added)
+            )
         playing_ids = {player.person_id for player in ordered}
         for pid, injury in matched.items():
             label = f"{info.abbrev} {injury.name} ({injury.designation or injury.status})"
@@ -889,6 +1039,10 @@ def build_world(raw: Path, day: date | None = None) -> World:
             tov_forced=info_row["tov_forced"],
             games=info_row["games"],
         )
+    if added_names:
+        print("Roster  last 8 games; the injury report only sits players it lists", flush=True)
+        for line in added_names:
+            print("  added     " + line, flush=True)
     if ruled_out or ruled_in or unmatched:
         print("Injury report  out and doubtful sit; questionable and probable play", flush=True)
         if ruled_out:

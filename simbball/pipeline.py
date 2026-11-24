@@ -65,6 +65,7 @@ def run_game(home, away, league, game: ScheduledGame, n_sims: int, seed: int, ou
     folder = out_dir / f"{away.abbrev}_at_{home.abbrev}"
     folder.mkdir(parents=True, exist_ok=True)
     _write_csv(folder / "boxscore_mean.csv", _box_rows(home, result.mean_box_home, result.mean_sec_home) + _box_rows(away, result.mean_box_away, result.mean_sec_away))
+    _write_csv(folder / "boxscore_mode.csv", _box_rows(home, result.mode_box_home, result.mode_sec_home) + _box_rows(away, result.mode_box_away, result.mode_sec_away))
     selected = result.selected
     _write_csv(
         folder / "boxscore_selected.csv",
@@ -201,11 +202,11 @@ def main(argv: list[str] | None = None) -> None:
     _print_report(day, summaries)
     if args.max_events is None:
         try:
-            from simbball.props import write_props
+            from simbball.board import write_board
 
-            write_props(RAW, day, out_dir)
+            write_board(RAW, day, out_dir)
         except Exception as exc:
-            print(f"Props were not written: {exc}", flush=True)
+            print(f"Player board was not written: {exc}", flush=True)
         _publish_results(out_dir)
 
 
