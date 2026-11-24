@@ -17,47 +17,42 @@ Nolan Traore	G	Jan 27	Out	Nov 23: Traore will be re-evaluated in approximately 8
 Charlotte Hornets
 Charlotte Hornets
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
+Grant Williams	F	Nov 25	Day-To-Day	Nov 23: Williams (hamstring) won't play Monday's game against the Grizzlies.
+Ryan Kalkbrenner	C	Nov 25	Day-To-Day	Nov 23: Kalkbrenner has been ruled out for the rest of Monday's game against Memphis due to left hip soreness. He'll end with two rebounds in nine minutes.
 Grayson Allen	G	Nov 25	Out	Nov 22: Allen (concussion) has been ruled out for Monday's game against the Grizzlies.
-Brandon Miller	F	Nov 23	Day-To-Day	Nov 22: Miller is probable for Monday's game against the Grizzlies due to a right knee contusion.
-Grant Williams	F	Nov 25	Out	Nov 22: Williams (hamstring) won't play Monday's game against the Grizzlies.
 Kon Knueppel	G	Dec 12	Out	Nov 8: Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.
 Dennis Schroder	G	Nov 25	Out	Nov 8: Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.
 Chicago Bulls
 Chicago Bulls
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Jalen Smith	F	Nov 23	Day-To-Day	Nov 23: Smith (illness) is probable for Monday's game against Cleveland.
-Nic Claxton	C	Nov 23	Day-To-Day	Nov 23: Claxton (illness) is questionable for Monday's game against Cleveland.
+Jalen Smith	F	Nov 25	Day-To-Day	Nov 24: Smith (illness) is listed as questionable for Wednesday's game against the Hornets.
 Norman Powell	G	Nov 28	Out	Nov 22: Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week.
 Caleb Wilson	F	Dec 13	Out	Nov 12: Wilson (hand) is expected to miss four to six weeks, Shams Charania of ESPN reports.
 Cleveland Cavaliers
 Cleveland Cavaliers
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Jaylon Tyson	G	Nov 23	Out	Nov 22: Tyson (ankle) is probable for Monday's game against the Bulls.
 Nae'Qwan Tomlin	F	Nov 29	Out	Nov 17: Tomlin (back) will remain on the inactive list for Wednesday's game against the Grizzlies.
 Evan Mobley	C	Nov 29	Out	Nov 16: Mobley will receive treatment and participate in rehab after the team confirmed a diagnosis of a right great toe sprain, and he'll be re-evaluated in the next 7-to-10 days.
 Dallas Mavericks
 Dallas Mavericks
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-P.J. Washington	F	Nov 24	Day-To-Day	Nov 23: Washington (illness) has been ruled out for Sunday's game against the Jazz.
-Tobi Lawal	F	Nov 24	Out	Nov 22: Lawal (groin) has been ruled out for Sunday's game against the Jazz.
+Tobi Lawal	F	Nov 27	Out	Nov 23: Lawal (groin) is out for Tuesday's game against Denver.
+P.J. Washington	F	Nov 24	Day-To-Day	Nov 23: Washington (illness) is questionable for Tuesday's game against the Nuggets.
 Dereck Lively II	C	Nov 27	Out	Nov 20: Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's "close" to returning, Mike Curtis of The Dallas Morning News reports.
 Sergio de Larrea	F	Nov 27	Out	Nov 17: De Larrea (knee) is listed as out for Wednesday's game against the Warriors.
 Tarik Biberovic	F	Nov 27	Out	Nov 17: Biberovic (heel) is out for Wednesday's game against the Warriors.
-Denver Nuggets
-Denver Nuggets
-NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Julian Strawther	G	Nov 29	Out	Oct 16: Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports.
 Detroit Pistons
 Detroit Pistons
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Ebuka Okorie	G	Nov 24	Day-To-Day	Nov 22: Okorie (oblique) is out for Sunday's game in Atlanta.
-Taurean Prince	F	Dec 13	Out	Nov 20: Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.
-Duncan Robinson	F	Nov 27	Out	Nov 17: Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.
-Jalen Duren	C	Nov 24	Out	Nov 8: Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports.
+Ebuka Okorie	G	Dec 13	Out	Nov 24: The Pistons announced Tuesday that Okorie (oblique) will miss at least two weeks, per Eric Vincent of ClutchPoints.com.
+Taurean Prince	F	Dec 26	Out	Nov 24: Prince underwent arthroscopic right knee surgery Nov. 18 and will be re-evaluated in four weeks, Eric Vincent of ClutchPoints.com reports.
+Duncan Robinson	F	Nov 27	Out	Nov 24: Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.
+Jalen Duren	C	Nov 30	Out	Nov 24: Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports.
+Cade Cunningham	G	Nov 24	Day-To-Day	Nov 23: Cunningham (knee) is probable for Tuesday's game against the Orlando.
 Golden State Warriors
 Golden State Warriors
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Brandon Williams	G	Nov 25	Out	Nov 23: Head coach Steve Kerr said Monday that Williams (hamstring) is on track to return Wednesday against the Kings, Kenzo Fukuda of ClutchPoints.com reports.
+Brandon Williams	G	Nov 25	Out	Nov 24: Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area.
 Stephen Curry	G	Dec 12	Out	Nov 12: Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.
 Kristaps Porzingis	C	Jan 2	Out	Nov 6: Porzingis announced on his social media that he's stepping away from basketball.
 Moses Moody	G	Dec 1	Out	Oct 16: Moody (knee) is progressing toward a potential return between December and January after rupturing his left patellar tendon in March, Anthony Slater of ESPN reports.
@@ -65,11 +60,10 @@ Jimmy Butler III	F	Jan 2	Out	Oct 16: Butler (knee) could return sometime between
 Indiana Pacers
 Indiana Pacers
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-T.J. McConnell	G	Nov 27	Out	Nov 23: McConnell is out for Monday's game against the Thunder due to left hamstring soreness.
-Aaron Nesmith	G	Nov 27	Out	Nov 23: Nesmith is out for Monday's game against the Thunder due to right foot soreness.
-Pascal Siakam	F	Nov 23	Day-To-Day	Nov 23: Siakam is questionable for Monday's game against Oklahoma City due to left hip injury management, according to the NBA's injury report.
-Tyrese Haliburton	G	Dec 13	Out	Nov 20: Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.
-Johnny Furphy	G	Jan 2	Out	Oct 30: Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com.
+T.J. McConnell	G	Nov 27	Day-To-Day	Nov 24: McConnell (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Shams Charania of ESPN reports.
+Tyrese Haliburton	G	Dec 13	Out	Nov 24: Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.
+Aaron Nesmith	G	Nov 27	Day-To-Day	Nov 23: Nesmith is out for Monday's game against the Thunder due to right foot soreness.
+Larry Nance Jr.	F	Nov 27	Day-To-Day	Nov 23: Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.
 Ben Sheppard	G	Jan 2	Out	Oct 28: Head coach Rick Carlise confirmed Sheppard will miss "months" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports.
 LA Clippers
 LA Clippers
@@ -79,44 +73,43 @@ Jordan Miller	G	Mar 2	Out	Aug 26: Miller underwent surgery Wednesday to repair a
 Los Angeles Lakers
 Los Angeles Lakers
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Austin Reaves	G	Nov 27	Out	Nov 22: Reaves (heel) has been ruled out for Monday's game against the Jazz, Jovan Buha of The Athletic reports.
+Austin Reaves	G	Nov 27	Out	Nov 23: Coach JJ Redick stated Monday that the team is optimistic Reaves (heel) will return for Friday's game against San Antonio, Daniel Starkand of LakersNation.com reports.
 Memphis Grizzlies
 Memphis Grizzlies
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
+Cameron Boozer	F	Dec 21	Out	Nov 23: Boozer (ankle) will be re-evaluated in four weeks, Brett Siegel of ClutchPoints.com reports.
 Jerami Grant	F	Dec 12	Out	Nov 22: Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks.
-Cameron Boozer	F	Nov 25	Out	Nov 22: Boozer (ankle) won't play Monday's game against the Hornets.
 GG Jackson	F	Jan 18	Out	Nov 17: Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months.
 Scotty Pippen Jr.	G	Nov 25	Out	Nov 16: Pippen (back) is progressing in his recovery but is still considered week-to-week.
 Richie Saunders	G	Dec 1	Out	Nov 7: Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.
 Miami Heat
 Miami Heat
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Giannis Antetokounmpo	F	Nov 25	Day-To-Day	Nov 23: Antetokounmpo (groin) won't play in Sunday's game against Oklahoma City, Clemente Almanza of USA Today reports.
+Giannis Antetokounmpo	F	Nov 25	Day-To-Day	Nov 24: Antetokounmpo (groin) participated in most of Tuesday's practice, Zachary Weinberger of ClutchPoints.com reports.
 Minnesota Timberwolves
 Minnesota Timberwolves
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
+Donte DiVincenzo	G	Jan 3	Out	Nov 24: DiVincenzo (Achilles) has been cleared for team basketball activities and is targeting a return to game action in January, Jon Krawczynski of The Athletic reports.
 Jaylen Clark	G	Nov 29	Out	Nov 15: Clark (hamstring) has been ruled out for the next two weeks.
 Anthony Edwards	G	Dec 21	Out	Oct 29: Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.
-Donte DiVincenzo	G	Apr 2	Out	Oct 5: DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.
 New Orleans Pelicans
 New Orleans Pelicans
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Zion Williamson	F	Nov 23	Day-To-Day	Nov 22: Williamson (thigh) is probable for Monday's game against Phoenix.
 Trendon Watford	F	Nov 27	Out	Nov 21: Watford (ankle) is out for Saturday's game against the Spurs.
 Bennedict Mathurin	G	Nov 27	Out	Nov 19: Mathurin (foot) has been ruled out for Friday's game against the Thunder.
 Dejounte Murray	G	Nov 27	Out	Nov 13: Murray (ankle) is out for Friday's game against Memphis.
 New York Knicks
 New York Knicks
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Miles McBride	G	Nov 25	Day-To-Day	Nov 23: McBride (abdomen) has been ruled out for Sunday's game against the Pacers.
-OG Anunoby	F	Nov 25	Day-To-Day	Nov 23: Anunoby (calf) won't play Sunday against the Pacers.
-Jordan Clarkson	G	Nov 25	Out	Nov 22: Clarkson (foot) has been ruled out for Sunday's game against Indiana.
+Jordan Clarkson	G	Nov 25	Out	Nov 24: Clarkson (foot) didn't participate in Tuesday's practice, Jared Schwartz of the New York Post reports.
+OG Anunoby	F	Nov 25	Day-To-Day	Nov 24: Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.
+Miles McBride	G	Nov 25	Day-To-Day	Nov 24: McBride (groin) practiced Tuesday, per Jared Schwartz of the New York Post.
 Oklahoma City Thunder
 Oklahoma City Thunder
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Jaylin Williams	F	Nov 25	Out	Nov 23: Williams (back) has been ruled out for Monday's game against the Pacers
+Jaylin Williams	F	Nov 25	Day-To-Day	Nov 23: Williams (back) has been ruled out for Monday's game against the Pacers
+Aday Mara	C	Nov 25	Day-To-Day	Nov 23: Mara (shin) has been ruled out for Monday's game against the Pacers.
 Nikola Topic	G	Nov 25	Out	Nov 23: Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.
-Aday Mara	C	Nov 25	Out	Nov 23: Mara (shin) has been ruled out for Monday's game against the Pacers.
 Jalen Williams	G	Mar 2	Out	Nov 23: Williams (ankle) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.
 Alex Caruso	G	Nov 25	Out	Nov 23: Caruso (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.
 Thomas Sorber	C	Jan 31	Out	Nov 17: Sorber underwent an arthroscopic knee procedure Tuesday to address inflammation at the patellofemoral joint in his right knee, and he's expected to return to on-court activities in 6-8 weeks, Steve McGehee of News 9 Oklahoma City reports.
@@ -132,10 +125,7 @@ Paolo Banchero	F	Nov 29	Out	Oct 24: Banchero is expected to be sidelined for the
 Philadelphia 76ers
 Philadelphia 76ers
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Joel Embiid	C	Nov 23	Day-To-Day	Nov 23: Embiid (knee) has been downgraded to questionable for Monday's game against Portland.
-Adem Bona	C	Nov 23	Out	Nov 22: Bona (back) is listed as probable for Monday's game against the Trail Blazers.
-Jaylen Brown	G	Nov 23	Day-To-Day	Nov 22: Brown (hamstring) is listed as probable for Monday's game versus Portland.
-Dean Wade	F	Nov 23	Day-To-Day	Nov 22: Wade (hamstring) is listed as probable for Monday's game against Portland.
+Joel Embiid	C	Nov 25	Day-To-Day	Nov 23: Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.
 Ariel Hukporti	C	Oct 1	Out	Oct 6: Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.
 Phoenix Suns
 Phoenix Suns
@@ -156,31 +146,29 @@ Ben Simmons	G	Oct 1	Out	Oct 21: Simmons underwent successful surgery Tuesday to 
 San Antonio Spurs
 San Antonio Spurs
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Victor Wembanyama	F	Nov 23	Day-To-Day	Nov 22: Wembanyama (back) is questionable for Monday's game against the Kings, Jared Weiss of The Athletic reports.
-De'Aaron Fox	G	Nov 23	Day-To-Day	Nov 22: Fox is questionable for Monday's game against the Kings due to a right shin contusion, Jared Weiss of The Athletic reports.
-Jordan McLaughlin	G	Nov 23	Day-To-Day	Nov 22: McLaughlin (shoulder) is listed as questionable for Monday's game against the Kings.
+Victor Wembanyama	F	Nov 25	Day-To-Day	Nov 24: Wembanyama (back) won't play Monday against the Kings, Jeff McDonald of the San Antonio Express-News reports.
+De'Aaron Fox	G	Nov 25	Day-To-Day	Nov 24: Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports.
 Dylan Harper	G	Dec 13	Out	Nov 19: Harper (hip) is expected to miss two to three weeks, Brett Siegel of ClutchPoints.com reports.
 Tobias Harris	F	Dec 3	Out	Nov 16: Harris (calf) is likely to be sidelined until early December, per Jeff Garcia of KENS 5 San Antonio.
 Jayden Quaintance	F	Dec 3	Out	Oct 5: Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.
 Toronto Raptors
 Toronto Raptors
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Jaden Bradley	G	Nov 23	Day-To-Day	Nov 23: Bradley is questionable for Monday's game against the Bucks due to an ankle sprain, Blake Murphy of Sportsnet.ca reports.
-Collin Murray-Boyles	F	Nov 23	Day-To-Day	Nov 22: Murray-Boyles (concussion) is listed as probable for Monday's game against Milwaukee, Blake Murphy of Sportsnet.ca reports.
+Kawhi Leonard	F	Dec 3	Out	Nov 24: Leonard has begun individual on-court workouts following treatment to address swelling in his left knee, and he will be re-evaluated in one week, Marc J. Spears of ESPN.com reports.
 Nate Bittle	C	Nov 27	Out	Nov 22: Bittle (foot) has been ruled out for Monday's game against the Bucks, Blake Murphy of Sportsnet.ca reports.
-Kawhi Leonard	F	Dec 3	Out	Nov 20: Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.
 RJ Barrett	F	Dec 13	Out	Nov 19: Barrett has been diagnosed with a right hamstring strain and will be re-evaluated in two weeks, Brett Siegel of ClutchPoints.com reports.
 Utah Jazz
 Utah Jazz
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Jaxson Hayes	C	Nov 27	Out	Nov 23: Hayes (knee) has been ruled out for Monday's game against the Lakers.
+Jaxson Hayes	C	Nov 27	Day-To-Day	Nov 24: Hayes (knee) has been ruled out for Monday's game against the Lakers.
 Jusuf Nurkic	C	Nov 29	Out	Nov 20: Nurkic (foot) has been cleared for on-court work and will be re-evaluated in one week.
 Lauri Markkanen	F	Jan 4	Out	Nov 11: Markkanen has been diagnosed with a non-displaced fracture in his right hand and will be sidelined for at least one month, Shams Charania of ESPN reports.
 Jaren Jackson Jr.	F	Dec 14	Out	Oct 27: Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.
 Washington Wizards
 Washington Wizards
 NAME	POS	EST. RETURN DATE	STATUS	COMMENT
-Tristan Vukcevic	F	Nov 24	Out	Nov 16: Vukcevic (hip) has been ruled out for Monday's game against Memphis.
+Tre Mann	G	Nov 24	Day-To-Day	Nov 24: Mann (illness) has been downgraded to questionable for Tuesday's game against Boston.
+Tristan Vukcevic	F	Nov 30	Out	Nov 23: Vukcevic (hip) has been ruled out for Tuesday's game against Boston.
 Reece Beekman	G	Dec 3	Out	Nov 2: The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks.
 Justin Champagnie	F	Feb 25	Out	Oct 28: Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic.
 Jamir Watkins	G	Apr 2	Out	Jul 30: The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL.

@@ -1,29 +1,30 @@
 Atlanta
 PG1 - K. Flemings
-PG2 - C. McCollum
+PG2 - A. Wiggins
 PG3 - N. Alexander-Walker
 PG4 - D. Daniels
 PG5 - R. Dennis
+PG6 - C. McCollum
 SG1 - N. Alexander-Walker
-SG2 - A. Wiggins
-SG3 - L. Dort
-SG4 - C. McCollum
-SG5 - D. Daniels
-SG6 - C. Kispert
-SG7 - J. Wilson
+SG2 - C. Kispert
+SG3 - D. Daniels
+SG4 - A. Wiggins
+SG5 - L. Dort
+SG6 - J. Wilson
+SG7 - C. McCollum
 SF1 - D. Daniels
 SF2 - L. Dort
 SF3 - A. Wiggins
-SF4 - N. Alexander-Walker
-SF5 - C. Kispert
+SF4 - C. Kispert
+SF5 - N. Alexander-Walker
 SF6 - D. Finney-Smith
 SF7 - J. Wilson
 PF1 - J. Johnson
-PF2 - L. Dort
-PF3 - A. Wiggins
-PF4 - D. Finney-Smith
+PF2 - Z. Ejiofor
+PF3 - L. Dort
+PF4 - A. Wiggins
 PF5 - C. Kispert
-PF6 - Z. Ejiofor
+PF6 - D. Finney-Smith
 PF7 - M. Gueye
 PF8 - A. Newell
 PF9 - J. Wilson
@@ -40,9 +41,9 @@ PG1 - D. White
 PG2 - P. Pritchard
 PG3 - M. Conley
 PG4 - D. Carter
-SG1 - J. Walsh
+SG1 - H. Gonzalez
 SG2 - B. Scheierman
-SG3 - H. Gonzalez
+SG3 - J. Walsh
 SG4 - D. White
 SG5 - P. Pritchard
 SG6 - R. Harper Jr.
@@ -57,13 +58,13 @@ SF7 - R. Harper Jr.
 SF8 - D. Mitchell
 PF1 - P. George
 PF2 - S. Hauser
-PF3 - J. Walsh
-PF4 - J. Tatum
-PF5 - B. Scheierman
-PF6 - H. Gonzalez
-PF7 - L. Garza
-PF8 - C. Cenac Jr.
-PF9 - R. Harper Jr.
+PF3 - J. Tatum
+PF4 - B. Scheierman
+PF5 - H. Gonzalez
+PF6 - R. Harper Jr.
+PF7 - J. Walsh
+PF8 - L. Garza
+PF9 - C. Cenac Jr.
 PF10 - D. Mitchell
 C1 - N. Queta
 C2 - M. Robinson
@@ -71,34 +72,34 @@ C3 - L. Garza
 C4 - C. Cenac Jr.
 C5 - A. Williams
 Brooklyn
-PG1 - N. Traore
-PG2 - M. Brown Jr.
-PG3 - E. Demin
-PG4 - K. Ellis
-PG5 - T. Mann
-PG6 - B. Saraf
-SG1 - E. Demin
+PG1 - M. Brown Jr.
+PG2 - E. Demin
+PG3 - K. Ellis
+PG4 - T. Mann
+PG5 - B. Saraf
+PG6 - N. Traore
+SG1 - M. Porter Jr.
 SG2 - K. Ellis
 SG3 - M. Brown Jr.
-SG4 - M. Porter Jr.
-SG5 - N. Traore
-SG6 - T. Mann
-SG7 - D. Powell
-SF1 - M. Porter Jr.
-SF2 - D. Wolf
-SF3 - N. Traore
+SG4 - E. Demin
+SG5 - T. Mann
+SG6 - D. Powell
+SG7 - N. Traore
+SF1 - D. Wolf
+SF2 - M. Porter Jr.
+SF3 - N. Clowney
 SF4 - K. Ellis
-SF5 - C. Johnson
-SF6 - N. Clowney
-SF7 - T. Mann
-SF8 - J. Minott
-SF9 - D. Powell
+SF5 - T. Mann
+SF6 - J. Minott
+SF7 - C. Johnson
+SF8 - D. Powell
+SF9 - N. Traore
 PF1 - J. Randle
 PF2 - N. Clowney
-PF3 - C. Johnson
+PF3 - D. Wolf
 PF4 - T. Mann
 PF5 - J. Minott
-PF6 - D. Wolf
+PF6 - C. Johnson
 PF7 - J. Jefferson
 PF8 - T. Bilodeau
 C1 - D. Sharpe
@@ -120,8 +121,8 @@ SG5 - D. Schroder
 SG6 - L. McNeeley
 SG7 - K. Boswell
 SG8 - K. Knueppel
-SF1 - G. Williams
-SF2 - S. James
+SF1 - S. James
+SF2 - G. Williams
 SF3 - B. Miller
 SF4 - R. O'Neale
 SF5 - G. Allen
@@ -131,8 +132,8 @@ SF8 - M. Ajayi
 PF1 - N. Reid
 PF2 - R. O'Neale
 PF3 - G. Williams
-PF4 - T. Salaun
-PF5 - S. James
+PF4 - S. James
+PF5 - T. Salaun
 PF6 - L. McNeeley
 PF7 - H. Steinbach
 PF8 - P. Hall
@@ -163,43 +164,43 @@ SF8 - C. Wilson
 PF1 - M. Buzelis
 PF2 - N. Essengue
 PF3 - P. Williams
-PF4 - L. Miller
-PF5 - J. Smith
-PF6 - Z. Collins
+PF4 - J. Smith
+PF5 - Z. Collins
+PF6 - L. Miller
 PF7 - D. Swain
 PF8 - T. Awaka
 PF9 - C. Wilson
 C1 - J. Smith
 C2 - N. Claxton
 C3 - Z. Collins
-C4 - O. Robinson
-C5 - T. Awaka
-C6 - L. Miller
+C4 - T. Awaka
+C5 - L. Miller
 Cleveland
 PG1 - J. Harden
 PG2 - T. Proctor
-PG3 - C. Porter Jr.
+PG3 - M. Thomas
+PG4 - C. Porter Jr.
 SG1 - D. Mitchell
 SG2 - S. Merrill
-SG3 - J. Tyson
-SG4 - M. Thomas
-SG5 - T. Proctor
+SG3 - M. Thomas
+SG4 - T. Proctor
+SG5 - J. Tyson
 SG6 - C. Porter Jr.
 SF1 - P. Watson
-SF2 - J. Tyson
-SF3 - M. Thomas
+SF2 - M. Thomas
+SF3 - J. Tyson
 SF4 - M. Hezonja
 SF5 - N. Tomlin
-SF6 - T. Enaruna
-SF7 - N. Omier
+SF6 - N. Omier
+SF7 - T. Enaruna
 SF8 - Z. Austin
 PF1 - E. Mobley
-PF2 - M. Hezonja
-PF3 - J. Tyson
+PF2 - J. Tyson
+PF3 - M. Hezonja
 PF4 - P. Watson
 PF5 - N. Tomlin
-PF6 - T. Enaruna
-PF7 - N. Omier
+PF6 - N. Omier
+PF7 - T. Enaruna
 PF8 - Z. Austin
 C1 - J. Allen
 C2 - T. Bryant
@@ -208,17 +209,17 @@ C4 - K. Diop
 C5 - E. Udeh Jr.
 Dallas
 PG1 - K. Irving
-PG2 - M. Sasser
-PG3 - W. Clayton Jr.
-PG4 - S. de Larrea
-PG5 - C. Flagg
+PG2 - W. Clayton Jr.
+PG3 - M. Sasser
+PG4 - C. Flagg
+PG5 - S. de Larrea
 SG1 - C. Martin
 SG2 - M. Christie
 SG3 - M. Sasser
 SG4 - K. Irving
 SG5 - W. Clayton Jr.
-SG6 - S. de Larrea
-SG7 - J. Howard
+SG6 - J. Howard
+SG7 - S. de Larrea
 SG8 - T. Biberovic
 SF1 - C. Flagg
 SF2 - Z. Risacher
@@ -242,8 +243,8 @@ PF9 - T. Biberovic
 C1 - D. Gafford
 C2 - M. Johnson Jr.
 C3 - S. Aldama
-C4 - M. Cisse
-C5 - P. Washington
+C4 - P. Washington
+C5 - M. Cisse
 C6 - D. Lively II
 Denver
 PG1 - J. Murray
@@ -251,27 +252,27 @@ PG2 - T. Jones
 PG3 - R. Nembhard Jr.
 SG1 - C. Braun
 SG2 - D. DeRozan
-SG3 - C. Johnson
-SG4 - S. Jones
-SG5 - J. Strawther
+SG3 - J. Strawther
+SG4 - C. Johnson
+SG5 - S. Jones
 SF1 - C. Johnson
 SF2 - S. Jones
 SF3 - D. DeRozan
 SF4 - C. Braun
-SF5 - A. Diallo
-SF6 - B. Hopkins
-SF7 - C. Whitmore
-SF8 - J. Strawther
+SF5 - J. Strawther
+SF6 - A. Diallo
+SF7 - B. Hopkins
+SF8 - C. Whitmore
 PF1 - A. Gordon
 PF2 - T. Brazile
 PF3 - D. DeRozan
 PF4 - C. Johnson
 PF5 - S. Jones
-PF6 - A. Diallo
-PF7 - C. Whitmore
-PF8 - M. Bagley III
-PF9 - B. Hopkins
-PF10 - Z. Nnaji
+PF6 - M. Bagley III
+PF7 - Z. Nnaji
+PF8 - A. Diallo
+PF9 - C. Whitmore
+PF10 - B. Hopkins
 C1 - N. Jokic
 C2 - M. Bagley III
 C3 - T. Brazile
@@ -281,54 +282,54 @@ C6 - Z. Nnaji
 Detroit
 PG1 - C. Cunningham
 PG2 - D. Jenkins
-PG3 - E. Okorie
-PG4 - E. Harkless
+PG3 - E. Harkless
+PG4 - E. Okorie (IL)
 SG1 - D. Jenkins
-SG2 - K. Huerter
-SG3 - D. Robinson
-SG4 - I. Joe
+SG2 - I. Joe
+SG3 - K. Huerter
+SG4 - D. Robinson (IL)
 SG5 - R. Holland II
-SG6 - T. Prince
-SG7 - C. Lanier
-SG8 - E. Harkless
-SF1 - D. Robinson
-SF2 - I. Joe
-SF3 - A. Thompson
-SF4 - K. Huerter
-SF5 - J. Green
-SF6 - R. Holland II
-SF7 - T. Prince
-SF8 - C. Lanier
+SG6 - C. Lanier
+SG7 - E. Harkless
+SG8 - T. Prince (IL)
+SF1 - D. Robinson (IL)
+SF2 - K. Huerter
+SF3 - R. Holland II
+SF4 - I. Joe
+SF5 - A. Thompson
+SF6 - J. Green
+SF7 - C. Lanier
+SF8 - T. Prince (IL)
 PF1 - A. Thompson
 PF2 - J. Green
-PF3 - J. Collins
-PF4 - R. Holland II
-PF5 - T. Prince
-PF6 - I. Jones
+PF3 - R. Holland II
+PF4 - J. Collins
+PF5 - I. Jones
+PF6 - T. Prince (IL)
 C1 - J. Collins
 C2 - P. Reed
 C3 - T. Smith
 C4 - U. Onyenso
 C5 - I. Jones
-C6 - J. Duren
+C6 - J. Duren (IL)
 Golden State
-PG2 - L. Cryer
 PG1 - D. Melton
-PG3 - B. Podziemski
-PG4 - B. Williams
-PG5 - W. Richard
-PG6 - G. Payton II
+PG2 - L. Cryer
+PG3 - B. Williams (IL)
+PG4 - B. Podziemski
+PG5 - G. Payton II
+PG6 - W. Richard
 PG7 - S. Curry
 SG1 - B. Podziemski
 SG2 - W. Richard
-SG3 - D. Melton
-SG4 - G. Payton II
+SG3 - G. Payton II
+SG4 - D. Melton
 SG5 - G. Santos
 SG6 - M. Moody
 SF1 - Y. Lendeborg
 SF2 - G. Santos
-SF3 - W. Richard
-SF4 - G. Payton II
+SF3 - G. Payton II
+SF4 - W. Richard
 SF5 - G. Niang
 SF6 - M. Leons
 SF7 - J. Butler III
@@ -343,8 +344,8 @@ PF7 - M. Leons
 PF8 - K. Porzingis
 PF9 - J. Butler III
 PF10 - M. Moody
-C2 - A. Horford
 C1 - C. Bassey
+C2 - A. Horford
 C3 - D. Green
 C4 - G. Ike
 C5 - K. Porzingis
@@ -352,9 +353,9 @@ Houston
 PG1 - F. VanVleet
 PG2 - M. Smart
 PG3 - A. Thompson
-PG4 - B. Thornton
-PG5 - R. Sheppard
-PG6 - B. Bogdanovic
+PG4 - R. Sheppard
+PG5 - B. Bogdanovic
+PG6 - B. Thornton
 PG7 - Q. Copeland
 SG1 - A. Thompson
 SG2 - R. Sheppard
@@ -367,14 +368,14 @@ SG8 - Q. Copeland
 SF1 - K. Durant
 SF2 - B. Bogdanovic
 SF3 - T. Eason
-SF4 - J. Tate
-SF5 - J. Smith Jr.
+SF4 - J. Smith Jr.
+SF5 - J. Tate
 SF6 - I. Crawford
 SF7 - J. Phillips
 PF1 - J. Smith Jr.
 PF2 - T. Eason
-PF3 - J. Tate
-PF4 - A. Sengun
+PF3 - A. Sengun
+PF4 - J. Tate
 PF5 - I. Crawford
 PF6 - J. Phillips
 C1 - A. Sengun
@@ -385,22 +386,23 @@ C5 - O. Tshiebwe
 Indiana
 PG1 - A. Nembhard
 PG2 - T. McConnell
-PG3 - Q. Jackson
-PG4 - B. Smith
-PG5 - T. Haliburton
+PG3 - B. Smith
+PG4 - Q. Jackson
+PG5 - T. Haliburton (IL)
 PG6 - B. Sheppard
 SG1 - K. Oubre Jr.
 SG2 - Q. Jackson
-SG3 - A. Nembhard
-SG4 - A. Nesmith
-SG5 - B. Sheppard
-SG6 - J. Furphy
+SG3 - B. Smith
+SG4 - A. Nembhard
+SG5 - A. Nesmith
+SG6 - B. Sheppard
+SG7 - J. Furphy
 SF1 - A. Nesmith
 SF2 - J. Walker
-SF3 - K. Oubre Jr.
-SF4 - Q. Jackson
-SF5 - K. Brown
-SF6 - J. Slawson
+SF3 - Q. Jackson
+SF4 - K. Oubre Jr.
+SF5 - J. Slawson
+SF6 - K. Brown
 SF7 - B. Sheppard
 SF8 - J. Furphy
 PF1 - P. Siakam
@@ -408,39 +410,40 @@ PF2 - O. Toppin
 PF3 - K. Oubre Jr.
 PF4 - L. Nance Jr.
 PF5 - J. Walker
-PF6 - K. Brown
-PF7 - J. Slawson
+PF6 - J. Slawson
+PF7 - K. Brown
 C1 - I. Zubac
-C2 - J. Huff
-C3 - L. Nance Jr.
-C4 - K. Brown
-C5 - O. Toppin
-C6 - P. Siakam
+C2 - L. Nance Jr.
+C3 - J. Huff
+C4 - O. Toppin
+C5 - P. Siakam
+C6 - K. Brown
 LA Clippers
 PG1 - D. Garland
-PG2 - K. Wagler
-PG3 - K. Dunn
-PG4 - B. Beal
-PG5 - J. Pickett
-PG6 - J. Miller
-PG7 - B. Wesley
-SG2 - K. Dunn
-SG3 - B. Beal
-SG4 - K. Wagler
+PG2 - K. Dunn
+PG3 - K. Wagler
+PG4 - J. Pickett
+PG5 - B. Wesley
+PG6 - B. Beal
+PG7 - J. Miller
+SG1 - B. Ingram
+SG2 - K. Wagler
+SG3 - M. Strus
+SG4 - K. Dunn
 SG5 - K. Sanders
-SG1 - M. Strus
 SG6 - G. Dick
 SG7 - C. Christie
-SG8 - J. Miller
-SG9 - B. Wesley
+SG8 - B. Wesley
+SG9 - B. Beal
+SG10 - J. Miller
 SF1 - D. Jones Jr.
-SF3 - M. Strus
-SF2 - G. Dick
-SF4 - K. Sanders
-SF5 - R. Hachimura
-SF6 - N. Martinelli
-SF7 - C. Christie
-SF8 - B. Ingram
+SF2 - M. Strus
+SF3 - K. Sanders
+SF4 - G. Dick
+SF5 - B. Ingram
+SF6 - R. Hachimura
+SF7 - N. Martinelli
+SF8 - C. Christie
 SF9 - J. Miller
 PF1 - R. Hachimura
 PF2 - K. Sanders
@@ -450,9 +453,9 @@ PF5 - D. Jones Jr.
 PF6 - B. Miller
 PF7 - N. Martinelli
 C1 - B. Lopez
+C2 - Y. Niederhauser
 C3 - I. Jackson
 C4 - B. Miller
-C2 - Y. Niederhauser
 LA Lakers
 PG1 - L. Doncic
 PG2 - C. Sexton
@@ -462,26 +465,26 @@ SG1 - A. Reaves
 SG2 - Q. Grimes
 SG3 - C. Sexton
 SG4 - Z. Williams
-SG5 - C. Carr
-SG6 - M. Thybulle
-SG7 - J. LaRavia
+SG5 - M. Thybulle
+SG6 - J. LaRavia
+SG7 - C. Carr
 SG8 - B. James
 SG9 - J. Hardy
 SG10 - C. Manon
 SF1 - M. Thybulle
-SF2 - J. LaRavia
-SF3 - Z. Williams
-SF4 - Q. Grimes
+SF2 - Z. Williams
+SF3 - Q. Grimes
+SF4 - J. LaRavia
 SF5 - C. Carr
 SF6 - A. Thiero
 SF7 - J. Hardy
 SF8 - C. Manon
 SF9 - A. Kaluma
-PF1 - Z. Williams
-PF2 - J. LaRavia
-PF3 - S. Mamukelashvili
-PF4 - J. Vanderbilt
-PF5 - M. Thybulle
+PF1 - J. LaRavia
+PF2 - J. Vanderbilt
+PF3 - Z. Williams
+PF4 - M. Thybulle
+PF5 - S. Mamukelashvili
 PF6 - A. Thiero
 PF7 - A. Kaluma
 C1 - W. Kessler
@@ -491,10 +494,10 @@ C4 - K. Looney
 C5 - C. Cooper
 Memphis
 PG1 - T. Jerome
-PG2 - S. Pippen Jr.
+PG2 - J. Small
 PG3 - C. Spencer
-PG4 - J. Small
-PG5 - J. Mashack
+PG4 - J. Mashack
+PG5 - S. Pippen Jr.
 SG1 - C. Coward
 SG2 - C. Spencer
 SG3 - T. Jerome
@@ -503,22 +506,23 @@ SG5 - J. Small
 SG6 - R. Saunders
 SG7 - S. Pippen Jr.
 SF1 - J. Wells
-SF2 - J. Grant
-SF3 - C. Spencer
-SF4 - C. Coward
-SF5 - K. Murray
-SF6 - O. Prosper
+SF2 - T. Hendricks
+SF3 - O. Prosper
+SF4 - C. Spencer
+SF5 - C. Coward
+SF6 - K. Murray
 SF7 - K. Lopez
 SF8 - J. Mashack
-SF9 - G. Jackson
-PF1 - C. Boozer
-PF2 - I. Stewart
-PF3 - J. Grant
-PF4 - K. Murray
-PF5 - T. Hendricks
+SF9 - J. Grant
+SF10 - G. Jackson
+PF1 - K. Murray
+PF2 - O. Prosper
+PF3 - T. Hendricks
+PF4 - I. Stewart
+PF5 - J. Wells
 PF6 - K. Lopez
-PF7 - O. Prosper
-PF8 - J. Wells
+PF7 - C. Boozer
+PF8 - J. Grant
 PF9 - G. Jackson
 C1 - Z. Edey
 C2 - I. Stewart
@@ -528,76 +532,75 @@ C5 - O. Prosper
 C6 - C. Boozer
 Miami
 PG1 - D. Mitchell
-PG2 - D. Smith
-PG3 - R. Conwell
+PG2 - R. Conwell
+PG3 - D. Smith
 PG4 - T. Donaldson
 SG1 - K. Thompson
-SG2 - T. Hardaway Jr.
+SG2 - S. Fontecchio
 SG3 - R. Conwell
 SG4 - P. Larsson
 SG5 - M. Gardner
-SG6 - D. Smith
+SG6 - T. Hardaway Jr.
+SG7 - D. Smith
 SF1 - P. Larsson
 SF2 - A. Wiggins
 SF3 - K. Thompson
-SF4 - T. Hardaway Jr.
+SF4 - S. Fontecchio
 SF5 - M. Gardner
-SF6 - S. Fontecchio
+SF6 - T. Hardaway Jr.
 SF7 - K. Johnson
 PF1 - G. Antetokounmpo
 PF2 - B. Portis
 PF3 - N. Jovic
-PF4 - K. Thompson
-PF5 - A. Wiggins
-PF6 - S. Fontecchio
-PF7 - M. Gardner
-PF8 - B. Adebayo
-PF9 - K. Johnson
+PF4 - A. Wiggins
+PF5 - S. Fontecchio
+PF6 - M. Gardner
+PF7 - B. Adebayo
+PF8 - K. Johnson
 C1 - B. Adebayo
 C2 - B. Portis
 C3 - N. Richards
 C4 - N. Jovic
 C5 - V. Goldin
 Milwaukee
-PG1 - B. Burries
-PG2 - R. Rollins
-PG3 - K. Jakucionis
-PG4 - T. Herro
+PG1 - R. Rollins
+PG2 - B. Burries
+PG3 - T. Herro
+PG4 - K. Jakucionis
 PG5 - A. Green
 PG6 - C. LeVert
 PG7 - K. Jones
 PG8 - C. Ryan
 SG1 - T. Herro
-SG2 - A. Green
+SG2 - B. Burries
 SG3 - R. Rollins
-SG4 - B. Burries
+SG4 - J. Jaquez Jr.
 SG5 - K. Jakucionis
-SG6 - J. Jaquez Jr.
-SG7 - G. Trent Jr.
-SG8 - C. LeVert
+SG6 - A. Green
+SG7 - C. LeVert
+SG8 - G. Trent Jr.
 SG9 - C. Ryan
 SG10 - K. Jones
-SF1 - K. Kuzma
-SF2 - J. Jaquez Jr.
-SF3 - K. Jakucionis
-SF4 - A. Green
-SF5 - N. Ament
-SF6 - O. Dieng
-SF7 - G. Trent Jr.
-SF8 - C. LeVert
+SF1 - J. Jaquez Jr.
+SF2 - K. Jakucionis
+SF3 - N. Ament
+SF4 - K. Kuzma
+SF5 - C. LeVert
+SF6 - G. Trent Jr.
+SF7 - A. Green
+SF8 - O. Dieng
 SF9 - P. Nance
-PF1 - M. Turner
+PF1 - K. Kuzma
 PF2 - N. Ament
 PF3 - K. Ware
-PF4 - K. Kuzma
-PF5 - O. Dieng
-PF6 - J. Jaquez Jr.
+PF4 - J. Jaquez Jr.
+PF5 - J. Sims
+PF6 - O. Dieng
 PF7 - B. Markovic
-PF8 - J. Sims
-PF9 - P. Nance
-C1 - J. Sims
+PF8 - P. Nance
+C1 - M. Turner
 C2 - K. Ware
-C3 - M. Turner
+C3 - J. Sims
 C4 - O. Dieng
 C5 - B. Markovic
 C6 - P. Nance
@@ -607,22 +610,22 @@ PG2 - B. Hyland
 PG3 - A. Dosunmu
 PG4 - I. Evans
 PG5 - Z. Pullin
-PG6 - D. DiVincenzo
+PG6 - D. DiVincenzo (IL)
 SG1 - A. Dosunmu
 SG2 - T. Shannon Jr.
-SG3 - I. Evans
-SG4 - B. Hyland
-SG5 - J. Clark
-SG6 - C. Williams
-SG7 - Z. Pullin
-SG8 - A. Edwards
+SG3 - B. Hyland
+SG4 - I. Evans
+SG5 - C. Williams
+SG6 - Z. Pullin
+SG7 - A. Edwards
+SG8 - J. Clark
 SF1 - J. Kuminga
-SF2 - J. Clark
-SF3 - J. McDaniels
-SF4 - T. Shannon Jr.
-SF5 - A. Dosunmu
-SF6 - I. Evans
-SF7 - C. Williams
+SF2 - J. McDaniels
+SF3 - T. Shannon Jr.
+SF4 - A. Dosunmu
+SF5 - I. Evans
+SF6 - C. Williams
+SF7 - J. Clark
 PF1 - J. McDaniels
 PF2 - T. Lyles
 PF3 - J. Kuminga
@@ -636,68 +639,69 @@ C4 - J. Broome
 C5 - R. Zikarsky
 New Orleans
 PG1 - J. Fears
-PG2 - D. Murray
-PG3 - J. Poole
-PG4 - A. Johnson
-SG1 - D. Murray
-SG2 - B. Mathurin
-SG3 - T. Murphy III
-SG4 - H. Jones
-SG5 - J. Poole
-SG6 - J. Fears
-SG7 - B. McGowens
+PG2 - J. Poole
+PG3 - A. Johnson
+PG4 - D. Murray
+SG1 - T. Murphy III
+SG2 - S. Bey
+SG3 - H. Jones
+SG4 - J. Poole
+SG5 - J. Fears
+SG6 - B. McGowens
+SG7 - J. Pierre Jr.
 SG8 - A. Johnson
-SG9 - J. Pierre Jr.
-SF1 - T. Murphy III
+SG9 - B. Mathurin
+SG10 - D. Murray
+SF1 - H. Jones
 SF2 - S. Bey
-SF3 - H. Jones
-SF4 - B. Mathurin
-SF5 - B. McGowens
-SF6 - J. Pierre Jr.
+SF3 - T. Murphy III
+SF4 - B. McGowens
+SF5 - J. Pierre Jr.
+SF6 - B. Mathurin
 PF1 - Z. Williamson
 PF2 - D. Queen
-PF3 - H. Jones
-PF4 - S. Bey
+PF3 - S. Bey
+PF4 - H. Jones
 PF5 - K. Matkovic
-PF6 - T. Watford
-PF7 - J. Reese
-PF8 - M. Dia
+PF6 - J. Reese
+PF7 - M. Dia
+PF8 - T. Watford
 C1 - Y. Missi
 C2 - K. Matkovic
-C3 - D. Jordan
-C4 - D. Queen
-C5 - T. Watford
-C6 - Z. Williamson
-C7 - J. Reese
-C8 - M. Dia
+C3 - D. Queen
+C4 - D. Jordan
+C5 - Z. Williamson
+C6 - J. Reese
+C7 - M. Dia
+C8 - T. Watford
 New York
 PG1 - J. Brunson
 PG2 - J. Alvarado
 PG3 - T. Kolek
-PG4 - J. Clarkson
-PG5 - M. McBride
+PG4 - M. McBride
+PG5 - J. Clarkson (IL)
 PG6 - J. Akins
 SG1 - J. Hart
 SG2 - M. McBride
 SG3 - L. Shamet
-SG4 - J. Clarkson
+SG4 - J. Clarkson (IL)
 SG5 - P. Dadiet
 SG6 - T. Nickel
 SG7 - J. Akins
 SG8 - D. Knecht
 SF1 - M. Bridges
-SF2 - J. Clarkson
-SF3 - L. Shamet
-SF4 - J. Hart
+SF2 - L. Shamet
+SF3 - J. Hart
+SF4 - J. Clarkson (IL)
 SF5 - P. Dadiet
 SF6 - T. Nickel
 SF7 - D. Knecht
 PF1 - O. Anunoby
 PF2 - L. Shamet
-PF3 - K. Towns
-PF4 - J. Hart
-PF5 - M. Diawara
-PF6 - P. Dadiet
+PF3 - P. Dadiet
+PF4 - K. Towns
+PF5 - J. Hart
+PF6 - M. Diawara
 C1 - K. Towns
 C2 - A. Drummond
 C3 - J. Wiseman
@@ -706,32 +710,32 @@ PG1 - S. Gilgeous-Alexander
 PG2 - B. Stirtz
 PG3 - A. Mitchell
 PG4 - J. McCain
-PG5 - N. Topic (IL)
+PG5 - N. Topic
 PG6 - C. Wallace
 SG1 - J. McCain
-SG2 - A. Mitchell
+SG2 - A. Caruso
 SG3 - B. Stirtz
-SG4 - A. Caruso
-SG5 - N. Clifford
-SG6 - J. Dix
-SG7 - N. Topic (IL)
+SG4 - A. Mitchell
+SG5 - J. Dix
+SG6 - N. Clifford
+SG7 - N. Topic
 SG8 - C. Wallace
 SF1 - A. Mitchell
 SF2 - A. Caruso
 SF3 - K. Williams
-SF4 - N. Clifford
+SF4 - M. Peavy
 SF5 - J. Dix
-SF6 - B. Barnhizer
-SF7 - M. Peavy
+SF6 - N. Clifford
+SF7 - B. Barnhizer
 SF8 - C. Wallace
 SF9 - J. Williams
 PF1 - A. Mara
 PF2 - K. Williams
 PF3 - J. Williams
 PF4 - A. Caruso
-PF5 - N. Clifford
-PF6 - B. Barnhizer
-PF7 - M. Peavy
+PF5 - M. Peavy
+PF6 - N. Clifford
+PF7 - B. Barnhizer
 PF8 - C. Holmgren
 C1 - I. Hartenstein
 C2 - A. Mara
@@ -744,28 +748,29 @@ PG3 - A. Black
 PG4 - J. Richardson
 PG5 - A. Morales
 SG1 - A. Black
-SG2 - J. Richardson
-SG3 - D. Bane
-SG4 - A. Morales
-SG5 - J. Cain
-SG6 - J. Carter
+SG2 - D. Bane
+SG3 - J. Cain
+SG4 - J. Richardson
+SG5 - J. Carter
+SG6 - A. Morales
 SG7 - N. Penda
 SF1 - D. Bane
-SF2 - J. Cain
-SF3 - T. da Silva
-SF4 - F. Wagner
+SF2 - T. da Silva
+SF3 - F. Wagner
+SF4 - J. Cain
 SF5 - N. Penda
 PF1 - F. Wagner
-PF2 - T. da Silva
-PF3 - J. Cain
-PF4 - J. Isaac
+PF2 - N. Vucevic
+PF3 - T. da Silva
+PF4 - J. Cain
 PF5 - C. Castleton
 PF6 - P. Banchero
 PF7 - N. Penda
 PF8 - I. Nelson
+PF9 - J. Isaac
 C1 - W. Carter Jr.
-C2 - N. Vucevic
-C3 - G. Bitadze
+C2 - G. Bitadze
+C3 - N. Vucevic
 C4 - C. Castleton
 C5 - I. Nelson
 Philadelphia
@@ -778,36 +783,36 @@ PG6 - C. Love
 SG1 - V. Edgecombe
 SG2 - K. Caldwell-Pope
 SG3 - A. Simons
-SG4 - J. Brown (IL)
+SG4 - J. Brown
 SG5 - L. Philon Jr.
 SG6 - R. Rupert
 SG7 - C. Love
-SF1 - J. Brown (IL)
-SF2 - K. Caldwell-Pope
-SF3 - J. Walker
-SF4 - D. Wade
+SF1 - J. Brown
+SF2 - J. Walker
+SF3 - D. Wade
+SF4 - K. Caldwell-Pope
 SF5 - L. James
 SF6 - J. Edwards
 SF7 - R. Rupert
 PF1 - L. James
 PF2 - D. Wade
-PF3 - D. Barlow (IL)
-PF4 - J. Walker
-PF5 - A. Bona (IL)
+PF3 - J. Walker
+PF4 - D. Barlow
+PF5 - A. Bona
 PF6 - J. Edwards
 PF7 - R. Rupert
 C1 - J. Embiid
-C2 - A. Bona (IL)
-C3 - D. Barlow (IL)
-C4 - J. Walker
+C2 - D. Barlow
+C3 - J. Walker
+C4 - A. Bona
 C5 - T. Fall
 C6 - A. Hukporti
 Phoenix
 PG1 - D. Booker
 PG2 - C. Gillespie
 PG3 - L. Kennard
-PG4 - J. Bouyea
-PG5 - J. Goodwin
+PG4 - J. Goodwin
+PG5 - J. Bouyea
 PG6 - P. Spencer
 SG1 - J. Green
 SG2 - L. Kennard
@@ -818,16 +823,16 @@ SG6 - J. Bouyea
 SG7 - P. Spencer
 SF1 - D. Brooks
 SF2 - J. Goodwin
-SF3 - R. Fleming
-SF4 - R. Dunn
-SF5 - L. Kennard
-SF6 - J. Green
+SF3 - L. Kennard
+SF4 - J. Green
+SF5 - R. Dunn
+SF6 - R. Fleming
 PF1 - M. Bridges
 PF2 - R. Dunn
-PF3 - K. Peat
-PF4 - R. Fleming
-PF5 - D. Brooks
-PF6 - J. Goodwin
+PF3 - D. Brooks
+PF4 - J. Goodwin
+PF5 - K. Peat
+PF6 - R. Fleming
 PF7 - D. Timme
 PF8 - D. Reath
 C1 - O. Ighodaro
@@ -840,100 +845,102 @@ C7 - M. Williams
 Portland
 PG1 - D. Lillard
 PG2 - J. Holiday
-PG3 - D. Avdija
-PG4 - S. Henderson
-PG5 - V. Krejci
-PG6 - J. Morant
-PG7 - S. Sharpe
+PG3 - S. Henderson
+PG4 - D. Avdija
+PG5 - J. Morant
+PG6 - S. Sharpe
+PG7 - V. Krejci
 SG1 - S. Cissoko
 SG2 - S. Henderson
-SG3 - D. Lillard
-SG4 - J. Holiday
+SG3 - J. Holiday
+SG4 - D. Lillard
 SG5 - T. Camara
-SG6 - V. Krejci
-SG7 - C. Youngblood
-SG8 - J. Tonje
-SG9 - J. Morant
-SG10 - S. Sharpe
+SG6 - C. Youngblood
+SG7 - J. Tonje
+SG8 - J. Morant
+SG9 - S. Sharpe
+SG10 - V. Krejci
 SF1 - T. Camara
-SF2 - S. Cissoko
-SF3 - J. Holiday
+SF2 - J. Holiday
+SF3 - S. Cissoko
 SF4 - D. Avdija
-SF5 - V. Krejci
-SF6 - S. Sharpe
-SF7 - J. Kent
-SF8 - J. Tonje
+SF5 - J. Kent
+SF6 - J. Tonje
+SF7 - S. Sharpe
+SF8 - V. Krejci
 PF1 - D. Avdija
 PF2 - S. Cissoko
-PF3 - M. Potter
-PF4 - R. Williams III
-PF5 - J. Kent
+PF3 - J. Kent
+PF4 - M. Potter
+PF5 - R. Williams III
 C1 - D. Clingan
 C2 - R. Williams III
-C3 - Y. Hansen
-C4 - B. Carlson
+C3 - B. Carlson
+C4 - Y. Hansen
 C5 - M. Potter
 Sacramento
 PG1 - D. Acuff Jr.
 PG2 - M. Monk
 PG3 - E. Sharp
-PG4 - S. Pedulla
-PG5 - B. Simmons
+PG4 - G. Vincent
+PG5 - S. Pedulla
+PG6 - B. Simmons
 SG1 - Z. LaVine
 SG2 - E. Sharp
 SG3 - D. Acuff Jr.
 SG4 - M. Monk
-SG5 - D. Plowden
-SG6 - S. Pedulla
+SG5 - G. Vincent
+SG6 - D. Plowden
+SG7 - S. Pedulla
 SF1 - D. Hunter
 SF2 - L. Black
 SF3 - Z. LaVine
-SF4 - M. Monk
-SF5 - K. Murray
+SF4 - K. Murray
+SF5 - M. Monk
 SF6 - A. Karaban
 SF7 - D. Plowden
 PF1 - K. Murray
 PF2 - P. Achiuwa
 PF3 - D. Hunter
 PF4 - D. Cardwell
-PF5 - J. Mogbo
+PF5 - D. Sabonis
 PF6 - A. Karaban
 PF7 - D. Plowden
-PF8 - D. Sabonis
+PF8 - J. Mogbo
 PF9 - B. Simmons
 C1 - D. Sabonis
 C2 - D. Cardwell
-C3 - M. Plumlee
-C4 - J. Mogbo
-C5 - P. Achiuwa
+C3 - P. Achiuwa
+C4 - M. Plumlee
+C5 - J. Mogbo
 C6 - M. Raynaud
 San Antonio
 PG1 - D. Fox
-PG2 - D. Harper
-PG3 - J. McLaughlin
-PG4 - J. Gillespie
-PG5 - D. Jones Garcia
+PG2 - J. McLaughlin
+PG3 - J. Gillespie
+PG4 - D. Jones Garcia
+PG5 - D. Harper
 SG1 - S. Castle
-SG2 - J. Champagnie
-SG3 - D. Harper
+SG2 - K. Johnson
+SG3 - J. Champagnie
 SG4 - J. McLaughlin
-SG5 - K. Johnson
-SG6 - D. Jones Garcia
-SF1 - D. Harper
-SF2 - K. Johnson
-SF3 - D. Vassell
-SF4 - J. Champagnie
-SF5 - H. Barnes
-SF6 - C. Bryant
-SF7 - D. Jones Garcia
-PF1 - D. Vassell
-PF2 - T. Harris
-PF3 - J. Champagnie
+SG5 - D. Jones Garcia
+SG6 - D. Harper
+SF1 - D. Vassell
+SF2 - H. Barnes
+SF3 - J. Champagnie
+SF4 - K. Johnson
+SF5 - C. Bryant
+SF6 - D. Jones Garcia
+SF7 - D. Harper
+PF1 - J. Champagnie
+PF2 - C. Bryant
+PF3 - H. Barnes
 PF4 - K. Johnson
-PF5 - C. Bryant
-PF6 - H. Barnes
-PF7 - L. Kornet
-PF8 - M. Brown
+PF5 - D. Vassell
+PF6 - L. Kornet
+PF7 - M. Brown
+PF8 - T. Harris
 PF9 - J. Quaintance
 C1 - V. Wembanyama
 C2 - L. Kornet
@@ -942,33 +949,33 @@ C4 - J. Quaintance
 Toronto
 PG1 - I. Quickley
 PG2 - J. Shead
-PG3 - J. Walter
-PG4 - S. Barnes
+PG3 - S. Barnes
+PG4 - J. Walter
 PG5 - J. Bradley
 PG6 - M. Smith
 SG1 - J. Walter
-SG2 - R. Barrett
+SG2 - A. Martin
 SG3 - J. Shead
-SG4 - A. Martin
-SG5 - J. Bradley
-SG6 - M. Smith
-SF1 - R. Barrett
+SG4 - J. Bradley
+SG5 - M. Smith
+SG6 - R. Barrett
+SF1 - A. Graves
 SF2 - J. Battle
 SF3 - J. Walter
-SF4 - A. Graves
-SF5 - S. Barnes
-SF6 - K. Anderson
-SF7 - K. Leonard
-SF8 - K. McCullar Jr.
+SF4 - S. Barnes
+SF5 - K. Anderson
+SF6 - K. McCullar Jr.
+SF7 - K. Leonard (IL)
+SF8 - R. Barrett
 PF1 - S. Barnes
 PF2 - C. Murray-Boyles
-PF3 - K. Anderson
-PF4 - A. Graves
-PF5 - R. Barrett
-PF6 - J. Battle
-C1 - C. Murray-Boyles
-C2 - J. Poeltl
-C3 - T. Jackson-Davis
+PF3 - A. Graves
+PF4 - J. Battle
+PF5 - K. Anderson
+PF6 - R. Barrett
+C1 - J. Poeltl
+C2 - T. Jackson-Davis
+C3 - C. Murray-Boyles
 C4 - J. Battle
 C5 - N. Bittle
 Utah
@@ -980,8 +987,8 @@ SG1 - D. Peterson
 SG2 - S. Mykhailiuk
 SG3 - B. Sensabaugh
 SG4 - A. Bailey
-SG5 - J. Okogie
-SG6 - J. Green
+SG5 - J. Green
+SG6 - J. Okogie
 SG7 - K. Bufkin
 SF1 - J. Green
 SF2 - J. Okogie
@@ -992,8 +999,8 @@ SF6 - L. Markkanen
 SF7 - H. Ingram
 PF1 - A. Bailey
 PF2 - B. Sensabaugh
-PF3 - J. Okogie
-PF4 - K. Filipowski
+PF3 - K. Filipowski
+PF4 - J. Okogie
 PF5 - H. Ingram
 PF6 - J. Jackson Jr.
 PF7 - L. Markkanen
@@ -1012,31 +1019,31 @@ PG4 - T. Johnson
 PG5 - R. Beekman
 SG1 - K. George
 SG2 - T. Johnson
-SG3 - B. Carrington
-SG4 - W. Riley
+SG3 - W. Riley
+SG4 - B. Carrington
 SG5 - T. Mann
 SG6 - J. Watkins
 SF1 - A. Dybantsa
 SF2 - B. Coulibaly
-SF3 - J. Champagnie
-SF4 - T. Johnson
-SF5 - K. Middleton
-SF6 - W. Riley
-SF7 - K. George
+SF3 - K. Middleton
+SF4 - W. Riley
+SF5 - K. George
+SF6 - T. Johnson
+SF7 - J. Champagnie
 SF8 - J. Watkins
 PF1 - A. Davis
-PF2 - J. Champagnie
-PF3 - K. Middleton
-PF4 - W. Riley
-PF5 - A. Gill
-PF6 - A. Dybantsa
-PF7 - B. Coulibaly
+PF2 - K. Middleton
+PF3 - W. Riley
+PF4 - A. Dybantsa
+PF5 - B. Coulibaly
+PF6 - A. Gill
+PF7 - J. Champagnie
 PF8 - T. Vukcevic
 PF9 - J. Watkins
 C1 - A. Sarr
 C2 - D. Ayton
-C3 - T. Vukcevic
+C3 - A. Davis
 C4 - A. Gill
-C5 - A. Davis
-C6 - F. Okpara
+C5 - F. Okpara
+C6 - T. Vukcevic
 C7 - J. Champagnie
