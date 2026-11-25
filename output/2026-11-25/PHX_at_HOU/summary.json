@@ -1,0 +1,47 @@
+{
+  "game_id": "22600061",
+  "tip_est": "2026-11-25 20:30:00",
+  "arena": "Toyota Center, Houston",
+  "away": {
+    "abbrev": "PHX",
+    "city": "Phoenix",
+    "name": "Suns",
+    "ortg": 114.0,
+    "drtg": 110.8,
+    "pace": 102.5
+  },
+  "home": {
+    "abbrev": "HOU",
+    "city": "Houston",
+    "name": "Rockets",
+    "ortg": 117.7,
+    "drtg": 112.8,
+    "pace": 99.6
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4873,
+  "mean_score": [
+    112.9,
+    112.3
+  ],
+  "median_score": [
+    113,
+    112
+  ],
+  "p10_score": [
+    97,
+    97
+  ],
+  "p90_score": [
+    129,
+    128
+  ],
+  "selected_score": [
+    113,
+    116
+  ],
+  "selected_seed": 796505449,
+  "mode_count": 22,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-25\\PHX_at_HOU\\simulation.mp4"
+}

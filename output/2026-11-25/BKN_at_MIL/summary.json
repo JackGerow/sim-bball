@@ -1,0 +1,47 @@
+{
+  "game_id": "22600060",
+  "tip_est": "2026-11-25 20:00:00",
+  "arena": "Fiserv Forum, Milwaukee",
+  "away": {
+    "abbrev": "BKN",
+    "city": "Brooklyn",
+    "name": "Nets",
+    "ortg": 111.4,
+    "drtg": 118.8,
+    "pace": 101.0
+  },
+  "home": {
+    "abbrev": "MIL",
+    "city": "Milwaukee",
+    "name": "Bucks",
+    "ortg": 110.2,
+    "drtg": 116.7,
+    "pace": 101.5
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5652,
+  "mean_score": [
+    116.0,
+    118.7
+  ],
+  "median_score": [
+    116,
+    119
+  ],
+  "p10_score": [
+    100,
+    102
+  ],
+  "p90_score": [
+    132,
+    135
+  ],
+  "selected_score": [
+    111,
+    116
+  ],
+  "selected_seed": 1234819657,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-25\\BKN_at_MIL\\simulation.mp4"
+}

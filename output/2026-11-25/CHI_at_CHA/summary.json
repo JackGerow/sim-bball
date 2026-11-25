@@ -1,0 +1,47 @@
+{
+  "game_id": "22600056",
+  "tip_est": "2026-11-25 19:00:00",
+  "arena": "Spectrum Center, Charlotte",
+  "away": {
+    "abbrev": "CHI",
+    "city": "Chicago",
+    "name": "Bulls",
+    "ortg": 112.9,
+    "drtg": 114.1,
+    "pace": 104.6
+  },
+  "home": {
+    "abbrev": "CHA",
+    "city": "Charlotte",
+    "name": "Hornets",
+    "ortg": 105.8,
+    "drtg": 113.9,
+    "pace": 98.7
+  },
+  "sims": 10000,
+  "home_win_prob": 0.544,
+  "mean_score": [
+    114.3,
+    116.0
+  ],
+  "median_score": [
+    114,
+    116
+  ],
+  "p10_score": [
+    98,
+    99
+  ],
+  "p90_score": [
+    131,
+    133
+  ],
+  "selected_score": [
+    112,
+    118
+  ],
+  "selected_seed": 74874178,
+  "mode_count": 17,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-25\\CHI_at_CHA\\simulation.mp4"
+}

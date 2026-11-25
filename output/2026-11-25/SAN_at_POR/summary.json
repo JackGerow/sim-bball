@@ -1,0 +1,47 @@
+{
+  "game_id": "22600063",
+  "tip_est": "2026-11-25 22:00:00",
+  "arena": "Moda Center, Portland",
+  "away": {
+    "abbrev": "SAN",
+    "city": "San Antonio",
+    "name": "Spurs",
+    "ortg": 115.9,
+    "drtg": 106.7,
+    "pace": 100.2
+  },
+  "home": {
+    "abbrev": "POR",
+    "city": "Portland",
+    "name": "Trail Blazers",
+    "ortg": 113.3,
+    "drtg": 109.4,
+    "pace": 101.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4701,
+  "mean_score": [
+    113.4,
+    111.9
+  ],
+  "median_score": [
+    113,
+    112
+  ],
+  "p10_score": [
+    97,
+    95
+  ],
+  "p90_score": [
+    130,
+    128
+  ],
+  "selected_score": [
+    111,
+    112
+  ],
+  "selected_seed": 1207677512,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-25\\SAN_at_POR\\simulation.mp4"
+}

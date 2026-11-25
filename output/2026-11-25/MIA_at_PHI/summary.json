@@ -1,0 +1,47 @@
+{
+  "game_id": "22600055",
+  "tip_est": "2026-11-25 17:00:00",
+  "arena": "Xfinity Mobile Arena, Philadelphia",
+  "away": {
+    "abbrev": "MIA",
+    "city": "Miami",
+    "name": "Heat",
+    "ortg": 116.6,
+    "drtg": 113.8,
+    "pace": 103.1
+  },
+  "home": {
+    "abbrev": "PHI",
+    "city": "Philadelphia",
+    "name": "76ers",
+    "ortg": 116.5,
+    "drtg": 115.7,
+    "pace": 100.4
+  },
+  "sims": 10000,
+  "home_win_prob": 0.4959,
+  "mean_score": [
+    118.6,
+    118.6
+  ],
+  "median_score": [
+    118,
+    118
+  ],
+  "p10_score": [
+    103,
+    102
+  ],
+  "p90_score": [
+    135,
+    135
+  ],
+  "selected_score": [
+    114,
+    119
+  ],
+  "selected_seed": 248664795,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-25\\MIA_at_PHI\\simulation.mp4"
+}

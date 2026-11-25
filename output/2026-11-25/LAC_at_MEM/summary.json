@@ -1,0 +1,47 @@
+{
+  "game_id": "22600059",
+  "tip_est": "2026-11-25 20:00:00",
+  "arena": "FedExForum, Memphis",
+  "away": {
+    "abbrev": "LAC",
+    "city": "LA",
+    "name": "Clippers",
+    "ortg": 110.3,
+    "drtg": 115.0,
+    "pace": 100.2
+  },
+  "home": {
+    "abbrev": "MEM",
+    "city": "Memphis",
+    "name": "Grizzlies",
+    "ortg": 117.0,
+    "drtg": 111.6,
+    "pace": 100.9
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5922,
+  "mean_score": [
+    112.6,
+    116.7
+  ],
+  "median_score": [
+    113,
+    117
+  ],
+  "p10_score": [
+    97,
+    101
+  ],
+  "p90_score": [
+    129,
+    132
+  ],
+  "selected_score": [
+    108,
+    111
+  ],
+  "selected_seed": 745012037,
+  "mode_count": 23,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-25\\LAC_at_MEM\\simulation.mp4"
+}
