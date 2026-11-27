@@ -1,0 +1,47 @@
+{
+  "game_id": "22600071",
+  "tip_est": "2026-11-27 21:30:00",
+  "arena": "Frost Bank Center, San Antonio",
+  "away": {
+    "abbrev": "LAL",
+    "city": "Los Angeles",
+    "name": "Lakers",
+    "ortg": 114.8,
+    "drtg": 109.8,
+    "pace": 100.3
+  },
+  "home": {
+    "abbrev": "SAN",
+    "city": "San Antonio",
+    "name": "Spurs",
+    "ortg": 115.3,
+    "drtg": 107.5,
+    "pace": 100.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5047,
+  "mean_score": [
+    113.2,
+    113.6
+  ],
+  "median_score": [
+    113,
+    113
+  ],
+  "p10_score": [
+    97,
+    98
+  ],
+  "p90_score": [
+    129,
+    130
+  ],
+  "selected_score": [
+    113,
+    106
+  ],
+  "selected_seed": 156949884,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\LAL_at_SAN\\simulation.mp4"
+}

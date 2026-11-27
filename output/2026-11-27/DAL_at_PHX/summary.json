@@ -1,0 +1,47 @@
+{
+  "game_id": "22600070",
+  "tip_est": "2026-11-27 21:00:00",
+  "arena": "Mortgage Matchup Center, Phoenix",
+  "away": {
+    "abbrev": "DAL",
+    "city": "Dallas",
+    "name": "Mavericks",
+    "ortg": 111.9,
+    "drtg": 110.5,
+    "pace": 103.3
+  },
+  "home": {
+    "abbrev": "PHX",
+    "city": "Phoenix",
+    "name": "Suns",
+    "ortg": 113.3,
+    "drtg": 111.7,
+    "pace": 102.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5633,
+  "mean_score": [
+    112.2,
+    115.1
+  ],
+  "median_score": [
+    112,
+    115
+  ],
+  "p10_score": [
+    96,
+    99
+  ],
+  "p90_score": [
+    128,
+    131
+  ],
+  "selected_score": [
+    113,
+    116
+  ],
+  "selected_seed": 771405300,
+  "mode_count": 18,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\DAL_at_PHX\\simulation.mp4"
+}

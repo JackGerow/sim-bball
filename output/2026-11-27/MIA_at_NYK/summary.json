@@ -1,0 +1,47 @@
+{
+  "game_id": "22600064",
+  "tip_est": "2026-11-27 19:00:00",
+  "arena": "Madison Square Garden, New York",
+  "away": {
+    "abbrev": "MIA",
+    "city": "Miami",
+    "name": "Heat",
+    "ortg": 115.6,
+    "drtg": 114.1,
+    "pace": 102.7
+  },
+  "home": {
+    "abbrev": "NYK",
+    "city": "New York",
+    "name": "Knicks",
+    "ortg": 113.2,
+    "drtg": 107.2,
+    "pace": 97.4
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5586,
+  "mean_score": [
+    112.7,
+    115.4
+  ],
+  "median_score": [
+    112,
+    115
+  ],
+  "p10_score": [
+    97,
+    99
+  ],
+  "p90_score": [
+    129,
+    131
+  ],
+  "selected_score": [
+    122,
+    120
+  ],
+  "selected_seed": 1227844816,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\MIA_at_NYK\\simulation.mp4"
+}

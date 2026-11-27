@@ -1,0 +1,47 @@
+{
+  "game_id": "22600072",
+  "tip_est": "2026-11-27 21:30:00",
+  "arena": "Delta Center, Salt Lake City",
+  "away": {
+    "abbrev": "DEN",
+    "city": "Denver",
+    "name": "Nuggets",
+    "ortg": 114.6,
+    "drtg": 114.2,
+    "pace": 100.4
+  },
+  "home": {
+    "abbrev": "UTA",
+    "city": "Utah",
+    "name": "Jazz",
+    "ortg": 108.5,
+    "drtg": 112.4,
+    "pace": 100.0
+  },
+  "sims": 10000,
+  "home_win_prob": 0.3932,
+  "mean_score": [
+    121.3,
+    116.6
+  ],
+  "median_score": [
+    121,
+    116
+  ],
+  "p10_score": [
+    105,
+    100
+  ],
+  "p90_score": [
+    137,
+    133
+  ],
+  "selected_score": [
+    124,
+    115
+  ],
+  "selected_seed": 1519616194,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\DEN_at_UTA\\simulation.mp4"
+}

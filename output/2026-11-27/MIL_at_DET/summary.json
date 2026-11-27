@@ -1,0 +1,47 @@
+{
+  "game_id": "22600065",
+  "tip_est": "2026-11-27 19:30:00",
+  "arena": "Little Caesars Arena, Detroit",
+  "away": {
+    "abbrev": "MIL",
+    "city": "Milwaukee",
+    "name": "Bucks",
+    "ortg": 109.3,
+    "drtg": 115.7,
+    "pace": 101.1
+  },
+  "home": {
+    "abbrev": "DET",
+    "city": "Detroit",
+    "name": "Pistons",
+    "ortg": 112.9,
+    "drtg": 108.8,
+    "pace": 98.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7061,
+  "mean_score": [
+    107.0,
+    116.3
+  ],
+  "median_score": [
+    107,
+    116
+  ],
+  "p10_score": [
+    91,
+    100
+  ],
+  "p90_score": [
+    123,
+    132
+  ],
+  "selected_score": [
+    108,
+    115
+  ],
+  "selected_seed": 1139815024,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\MIL_at_DET\\simulation.mp4"
+}

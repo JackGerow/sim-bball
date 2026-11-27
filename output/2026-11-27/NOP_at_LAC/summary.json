@@ -1,0 +1,47 @@
+{
+  "game_id": "22600073",
+  "tip_est": "2026-11-27 21:30:00",
+  "arena": "Intuit Dome, Inglewood",
+  "away": {
+    "abbrev": "NOP",
+    "city": "New Orleans",
+    "name": "Pelicans",
+    "ortg": 108.8,
+    "drtg": 117.0,
+    "pace": 101.7
+  },
+  "home": {
+    "abbrev": "LAC",
+    "city": "LA",
+    "name": "Clippers",
+    "ortg": 109.5,
+    "drtg": 115.1,
+    "pace": 99.9
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6105,
+  "mean_score": [
+    114.7,
+    119.3
+  ],
+  "median_score": [
+    114,
+    119
+  ],
+  "p10_score": [
+    99,
+    103
+  ],
+  "p90_score": [
+    131,
+    136
+  ],
+  "selected_score": [
+    112,
+    122
+  ],
+  "selected_seed": 651800639,
+  "mode_count": 20,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\NOP_at_LAC\\simulation.mp4"
+}

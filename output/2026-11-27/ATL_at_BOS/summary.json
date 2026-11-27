@@ -1,0 +1,47 @@
+{
+  "game_id": "22600068",
+  "tip_est": "2026-11-27 20:00:00",
+  "arena": "TD Garden, Boston",
+  "away": {
+    "abbrev": "ATL",
+    "city": "Atlanta",
+    "name": "Hawks",
+    "ortg": 110.2,
+    "drtg": 108.4,
+    "pace": 106.6
+  },
+  "home": {
+    "abbrev": "BOS",
+    "city": "Boston",
+    "name": "Celtics",
+    "ortg": 111.9,
+    "drtg": 106.7,
+    "pace": 99.1
+  },
+  "sims": 10000,
+  "home_win_prob": 0.6041,
+  "mean_score": [
+    109.8,
+    114.5
+  ],
+  "median_score": [
+    110,
+    114
+  ],
+  "p10_score": [
+    94,
+    98
+  ],
+  "p90_score": [
+    126,
+    131
+  ],
+  "selected_score": [
+    120,
+    116
+  ],
+  "selected_seed": 60400249,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\ATL_at_BOS\\simulation.mp4"
+}

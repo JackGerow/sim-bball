@@ -1,0 +1,47 @@
+{
+  "game_id": "22600074",
+  "tip_est": "2026-11-27 21:30:00",
+  "arena": "Moda Center, Portland",
+  "away": {
+    "abbrev": "GSW",
+    "city": "Golden State",
+    "name": "Warriors",
+    "ortg": 110.5,
+    "drtg": 111.4,
+    "pace": 99.3
+  },
+  "home": {
+    "abbrev": "POR",
+    "city": "Portland",
+    "name": "Trail Blazers",
+    "ortg": 113.3,
+    "drtg": 109.5,
+    "pace": 101.3
+  },
+  "sims": 10000,
+  "home_win_prob": 0.5837,
+  "mean_score": [
+    109.1,
+    112.8
+  ],
+  "median_score": [
+    109,
+    113
+  ],
+  "p10_score": [
+    93,
+    97
+  ],
+  "p90_score": [
+    125,
+    129
+  ],
+  "selected_score": [
+    113,
+    108
+  ],
+  "selected_seed": 1746172325,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\GSW_at_POR\\simulation.mp4"
+}

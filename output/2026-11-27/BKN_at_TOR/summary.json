@@ -1,0 +1,47 @@
+{
+  "game_id": "22600067",
+  "tip_est": "2026-11-27 19:30:00",
+  "arena": "Scotiabank Arena, Toronto",
+  "away": {
+    "abbrev": "BKN",
+    "city": "Brooklyn",
+    "name": "Nets",
+    "ortg": 110.9,
+    "drtg": 117.0,
+    "pace": 100.7
+  },
+  "home": {
+    "abbrev": "TOR",
+    "city": "Toronto",
+    "name": "Raptors",
+    "ortg": 111.1,
+    "drtg": 113.7,
+    "pace": 100.0
+  },
+  "sims": 10000,
+  "home_win_prob": 0.7081,
+  "mean_score": [
+    108.3,
+    117.6
+  ],
+  "median_score": [
+    108,
+    118
+  ],
+  "p10_score": [
+    92,
+    102
+  ],
+  "p90_score": [
+    125,
+    134
+  ],
+  "selected_score": [
+    113,
+    118
+  ],
+  "selected_seed": 791965358,
+  "mode_count": 19,
+  "criterion": "final score that occurred most often; the filmed game is one of the simulations that ended on that score",
+  "video": "output\\2026-11-27\\BKN_at_TOR\\simulation.mp4"
+}
